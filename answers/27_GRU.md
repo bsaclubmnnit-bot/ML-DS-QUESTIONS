@@ -143,3 +143,4 @@ GRU trains noticeably faster than LSTM under the following conditions:
 
 **Practical Rule of Thumb:**
 Start with **GRU** as a baseline for quick training. If the model suffers from underfitting or struggles with long-range dependencies, switch to **LSTM**.
+

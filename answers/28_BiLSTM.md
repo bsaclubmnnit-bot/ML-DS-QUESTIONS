@@ -106,3 +106,4 @@ BiLSTM is fundamentally unsuitable in situations where future information cannot
 | **Inference Latency** | Can process streaming inputs token-by-token | Requires entire sequence before backward pass can execute |
 | **Causal Forecasting** | Suitable (strict causal masking) | Unsuitable (data leakage of future observations) |
 | **Classification / NER** | Good | Superior (state-of-the-art for RNN-based NLP tasks) |
+

@@ -203,3 +203,4 @@ LSTMs are recommended in scenarios characterized by:
 | **Training Speed** | Slower per epoch | Faster per epoch due to fewer matrix multiplications |
 | **Data Efficiency** | Excels on larger, longer, or more complex sequence datasets | Excels on smaller datasets; less prone to overfitting |
 | **Control Granularity** | Fine-grained (separate memory storage and output gating) | Coarse-grained (direct blend between old and new state) |
+

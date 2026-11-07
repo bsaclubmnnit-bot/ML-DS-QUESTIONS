@@ -389,3 +389,4 @@ Modern architectures overcome the quadratic attention bottleneck using a combina
 4. **Sparse & Linear Attention:**
    - **Local / Sliding Window Attention:** Tokens attend only to neighbors within a fixed window $W$, achieving $\mathcal{O}(N \cdot W)$ complexity (e.g., Mistral, Longformer).
    - **State Space Models (SSMs) & Hybrid Architectures:** Models like Mamba and RWKV achieve true $\mathcal{O}(N)$ linear time and constant $\mathcal{O}(1)$ inference memory through continuous state-space recurrences.
+

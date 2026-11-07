@@ -110,3 +110,4 @@ If dropout is needed on the recurrent connections ($h_{t-1} \to h_t$):
 - Sample a random dropout mask **once** at time $t=0$.
 - Reuse the **exact same dropout mask** across all time steps $t=1, 2, \dots, T$ for that sequence.
 - This prevents the cumulative memory destruction caused by sampling new masks at every single time step.
+
