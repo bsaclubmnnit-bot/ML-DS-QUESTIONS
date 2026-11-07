@@ -8,7 +8,7 @@
 
 ## DL-001: How does gradient descent train a neural network?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Gradient descent** iteratively updates network weights in the direction that minimizes the loss function.
 
@@ -50,7 +50,7 @@ for epoch in range(100):
 
 ## DL-002: What are many-to-many architectures?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Many-to-many** RNN architectures take a **sequence as input** and produce a **sequence as output**. Two variants:
 
@@ -93,7 +93,7 @@ class NERModel(nn.Module):
 
 ## DL-003: What are many-to-one architectures?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Many-to-one** RNN architectures take a **sequence as input** and produce a **single output** at the end.
 
@@ -132,7 +132,7 @@ class SentimentRNN(nn.Module):
 
 ## DL-004: What are weights and biases?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Weights** and **biases** are the **learnable parameters** of a neural network.
 
@@ -168,7 +168,7 @@ z = linear(x)  # z = w @ x.T + b
 
 ## DL-005: What causes overfitting in CNNs?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 Overfitting in CNNs occurs when the model **memorizes training data** rather than learning generalizable features.
 
@@ -218,7 +218,7 @@ nn.BatchNorm2d(num_features=64)
 
 ## DL-006: What is ReLU?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **ReLU** (Rectified Linear Unit) is the most widely used activation function in deep learning.
 
@@ -258,7 +258,7 @@ gelu        = nn.GELU()          # used in BERT, GPT
 
 ## DL-007: What is a CNN?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 A **Convolutional Neural Network (CNN)** is a deep learning architecture designed for processing **grid-structured data** such as images, video, and audio spectrograms. It uses **convolutional layers** to automatically learn spatial hierarchies of features.
 
@@ -301,7 +301,7 @@ class SimpleCNN(nn.Module):
 
 ## DL-008: What is a convolutional filter or kernel?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 A **filter** (also called a **kernel**) is a small learnable weight matrix that slides over the input to detect specific patterns.
 
@@ -333,7 +333,7 @@ print(sum(p.numel() for p in conv.parameters()))  # 896
 
 ## DL-009: What is a feature map?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 A **feature map** (also called **activation map**) is the output of applying a single convolutional filter to an input. It represents where and how strongly a particular feature (e.g., edge, texture) is detected at each spatial location.
 
@@ -371,7 +371,7 @@ for i, ax in enumerate(axes):
 
 ## DL-010: What is a hidden layer?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 A **hidden layer** is any layer between the input and output layers. It's called "hidden" because its values are not directly observed in input or output.
 
@@ -408,7 +408,7 @@ model = nn.Sequential(
 
 ## DL-011: What is a hidden state?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 The **hidden state** (`hₜ`) is the RNN's internal memory that **summarizes all information** seen up to time step `t`.
 
@@ -446,7 +446,7 @@ h_t3 = output[:, 2, :]  # hidden state at t=3
 
 ## DL-012: What is a learning rate?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 The **learning rate (η)** controls **how much weights are updated** during each gradient descent step.
 
@@ -483,7 +483,7 @@ scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=50)
 
 ## DL-013: What is a receptive field?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 The **receptive field** is the region of the **input image** that a particular neuron (or feature map cell) is responsive to — i.e., the area it "sees."
 
@@ -523,7 +523,7 @@ conv_5x5 = nn.Conv2d(C, C, 5, padding=2)  # more parameters, less non-linearity
 
 ## DL-014: What is an Artificial Neural Network?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 An **Artificial Neural Network (ANN)** is a computational model inspired by the biological neural networks in the human brain. It consists of layers of interconnected **artificial neurons** (nodes) that learn to map inputs to outputs through training.
 
@@ -556,7 +556,7 @@ ANNs are universal function approximators — given enough neurons and layers, t
 
 ## DL-015: What is an RNN?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 A **Recurrent Neural Network (RNN)** is a type of neural network designed to process **sequential data** by maintaining a **hidden state** that carries information from previous time steps.
 
@@ -592,7 +592,7 @@ output, h_n = rnn(x)            # output: (4,8,32), h_n: (1,4,32)
 
 ## DL-016: What is an activation function?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 An **activation function** determines whether and how strongly a neuron fires given its input. It introduces **non-linearity** into the network.
 
@@ -630,7 +630,7 @@ print(F.softmax(x, dim=0))  # probabilities summing to 1
 
 ## DL-017: What is an artificial neuron?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 An **artificial neuron** (perceptron) is the basic unit of an ANN. It mimics a biological neuron by:
 
@@ -667,7 +667,7 @@ output = artificial_neuron(
 
 ## DL-018: What is an epoch?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 An **epoch** is one complete pass through the **entire training dataset** during training.
 
@@ -707,7 +707,7 @@ early_stop = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=
 
 ## DL-019: What is average pooling?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Average pooling** computes the **mean value** of each pooling window, providing a smoothed representation.
 
@@ -745,7 +745,7 @@ print(gap(x).shape)  # (1, 1, 1, 1)
 
 ## DL-020: What is backpropagation through time?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Backpropagation Through Time (BPTT)** is the algorithm used to train RNNs by unrolling the network across time steps and applying standard backpropagation.
 
@@ -787,7 +787,7 @@ def truncated_bptt(model, x_seq, k=10):
 
 ## DL-021: What is backpropagation?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Backpropagation** (backprop) is the algorithm used to compute gradients of the loss function with respect to every weight in the network, enabling gradient descent to update weights.
 
@@ -829,7 +829,7 @@ print(b.grad)  # ∂L/∂b
 
 ## DL-022: What is batch normalization?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Batch Normalization (BatchNorm)** normalizes the inputs of each layer to have **zero mean and unit variance** across the batch, then applies learnable scale and shift.
 
@@ -870,7 +870,7 @@ model = nn.Sequential(
 
 ## DL-023: What is batch size?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Batch size** is the number of training samples used in one forward/backward pass before updating weights.
 
@@ -909,7 +909,7 @@ for X_batch, y_batch in train_loader:
 
 ## DL-024: What is convolution?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Convolution** is the core mathematical operation in CNNs where a **filter (kernel)** slides across the input to produce a feature map.
 
@@ -956,7 +956,7 @@ output = conv(x)              # output: (1, 1, 3, 3)
 
 ## DL-025: What is data augmentation?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Data augmentation** artificially **increases the size and diversity** of the training dataset by applying random, label-preserving transformations to training images.
 
@@ -999,7 +999,7 @@ augmentation = T.Compose([
 
 ## DL-026: What is dropout?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Dropout** is a regularization technique that **randomly deactivates neurons** during training to prevent overfitting.
 
@@ -1039,7 +1039,7 @@ model.eval()   # dropout disabled
 
 ## DL-027: What is forward propagation?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Forward propagation** is the process of passing input data through the network layer by layer to compute the output/prediction.
 
@@ -1079,7 +1079,7 @@ prediction = model(x)  # triggers forward pass
 
 ## DL-028: What is max pooling?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Max pooling** selects the **maximum value** from each pooling window, retaining the most activated (strongest) feature response.
 
@@ -1120,7 +1120,7 @@ print(pool(x))
 
 ## DL-029: What is padding?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Padding** adds extra values (usually zeros) around the border of the input before applying convolution.
 
@@ -1158,7 +1158,7 @@ print(same_pad(x).shape)  # (1, 1, 6, 6)
 
 ## DL-030: What is parameter sharing?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Parameter sharing** means that **the same filter weights** are used across all spatial positions in the input when computing a feature map.
 
@@ -1195,7 +1195,7 @@ print(conv.weight.shape)  # (64, 3, 3, 3) — only 1,728 weight values
 
 ## DL-031: What is pooling?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Pooling** is a downsampling operation that reduces the spatial dimensions of feature maps while retaining the most important information.
 
@@ -1230,7 +1230,7 @@ global_avg = nn.AdaptiveAvgPool2d((1, 1))  # (N, C, H, W) → (N, C, 1, 1)
 
 ## DL-032: What is sequence-to-sequence learning?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Sequence-to-sequence (Seq2Seq)** learning maps an **input sequence** of variable length to an **output sequence** of variable length.
 
@@ -1274,7 +1274,7 @@ class Decoder(nn.Module):
 
 ## DL-033: What is sigmoid?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Sigmoid** squashes input to a range of **(0, 1)**, making it ideal for binary probability outputs.
 
@@ -1313,7 +1313,7 @@ print(F.sigmoid(x))  # tensor([0.0474, 0.5000, 0.9526])
 
 ## DL-034: What is stride?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Stride** is the number of pixels the filter **moves** (slides) at each step across the input.
 
@@ -1350,7 +1350,7 @@ print(conv_s2(x).shape)  # (1, 1, 3, 3)  → (8-3)/2 + 1 = 3
 
 ## DL-035: What is tanh?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Tanh** (Hyperbolic Tangent) squashes input to **(-1, 1)**, making it zero-centered unlike sigmoid.
 
@@ -1389,7 +1389,7 @@ print(torch.tanh(x))  # tensor([-0.9951,  0.0000,  0.9951])
 
 ## DL-036: What is the exploding gradient problem?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 The **exploding gradient problem** occurs when gradients grow **exponentially** during BPTT, causing extremely large weight updates and unstable training.
 
@@ -1436,7 +1436,7 @@ if ||g|| > max_norm:
 
 ## DL-037: What is the vanishing gradient problem?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 The **vanishing gradient problem** occurs when gradients become extremely small as they propagate back through many layers, causing early layers to learn very slowly or not at all.
 
@@ -1483,7 +1483,7 @@ nn.LSTM(input_size, hidden_size)
 
 ## DL-038: What is transfer learning in CNNs?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Transfer learning** uses a CNN **pre-trained on a large dataset** (e.g., ImageNet) and adapts it to a new, often smaller dataset.
 
@@ -1533,7 +1533,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=1e-5)  # small LR
 
 ## DL-039: What is weight initialization?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** HIGH
 
 **Weight initialization** is the process of setting initial values for network weights before training begins. Bad initialization can cause vanishing/exploding gradients and slow convergence.
 
@@ -1578,7 +1578,7 @@ nn.init.zeros_(layer.bias)
 
 ## DL-040: What applications commonly use RNNs?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
 
 RNNs are well-suited for any task involving **ordered, sequential data**.
 
@@ -1617,7 +1617,7 @@ class TimeSeriesRNN(nn.Module):
 
 ## DL-041: Why are CNNs effective for images?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
 
 CNNs are effective for images because they exploit three key **structural properties** of image data:
 
@@ -1650,7 +1650,7 @@ CNNs are effective for images because they exploit three key **structural proper
 
 ## DL-042: Why are RNNs useful for sequential data?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
 
 RNNs are useful for sequential data because they can model **temporal dependencies** — relationships between elements at different time steps — which feedforward networks cannot.
 
@@ -1680,7 +1680,7 @@ RNNs are useful for sequential data because they can model **temporal dependenci
 
 ## DL-043: Why are non-linear activation functions required?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Without non-linear activation functions, a neural network — **no matter how many layers** — collapses into a single linear transformation.
 
@@ -1716,7 +1716,7 @@ good_model = nn.Sequential(
 
 ## DL-044: Why do vanilla RNNs suffer from vanishing gradients?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Vanilla RNNs suffer from vanishing gradients because during BPTT, gradients are multiplied by the **weight matrix** at each time step — and if these values are less than 1, gradients shrink exponentially.
 
@@ -1751,7 +1751,7 @@ sentence = "The cat that was chased by the dog ___ happy"
 
 ## DL-045: What are the limitations of vanilla RNNs?
 
-**Domain:** Topic 40: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 34: Neural Networks and Backpropagation &nbsp;|&nbsp; **Priority:** LOWER
 
 Vanilla (simple) RNNs have several critical limitations:
 
@@ -1790,7 +1790,7 @@ Vanilla (simple) RNNs have several critical limitations:
 
 ## DL-046: What are GRU advantages?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 1. **Higher Efficiency:** Requires 25% fewer parameters and fewer tensor operations per sequence step.
 2. **Faster Convergence:** Often reaches target validation loss faster than LSTM due to fewer optimization variables.
@@ -1803,7 +1803,7 @@ Vanilla (simple) RNNs have several critical limitations:
 
 ## DL-047: What are update and reset gates?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 GRUs regulate information flow using two specific gating vectors:
 
@@ -1828,7 +1828,7 @@ The update gate effectively couples the roles of the LSTM's forget gate and inpu
 
 ## DL-048: What is a BiLSTM?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 A **Bidirectional Long Short-Term Memory (BiLSTM)** network is a recurrent architecture that processes sequence data in both directions simultaneously:
 1. **Forward LSTM:** Reads sequence from start to finish ($x_1 \to x_2 \to \dots \to x_T$).
@@ -1876,7 +1876,7 @@ print("Final hidden state:", h_n.shape)  # torch.Size([2, 32, 256]) -> [num_dire
 
 ## DL-049: What is a GRU?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 A **Gated Recurrent Unit (GRU)** is a simplified variant of the LSTM architecture proposed by Kyunghyun Cho et al. in 2014. 
 
@@ -1928,7 +1928,7 @@ print("Final hidden state:", h_n.shape)  # torch.Size([2, 16, 128])
 
 ## DL-050: What is a cell state?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 The **cell state** ($C_t$) is the internal long-term memory backbone of an LSTM unit. It acts like a persistent highway running through the sequence chain, with only minimal linear interactions.
 
@@ -1944,7 +1944,7 @@ The **cell state** ($C_t$) is the internal long-term memory backbone of an LSTM 
 
 ## DL-051: What is an LSTM?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 A **Long Short-Term Memory (LSTM)** network is a specialized recurrent neural network (RNN) architecture designed to capture long-term dependencies in sequential data while mitigating the vanishing gradient problem.
 
@@ -2003,7 +2003,7 @@ print("Final cell state:", c_n.shape)    # torch.Size([2, 16, 128])
 
 ## DL-052: What is the difference between hidden state and cell state?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 | Dimension | Cell State ($C_t$) | Hidden State ($h_t$) |
 |:---|:---|:---|
@@ -2019,7 +2019,7 @@ print("Final cell state:", c_n.shape)    # torch.Size([2, 16, 128])
 
 ## DL-053: What is the forget gate?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 The **forget gate** ($f_t$) determines what proportion of the previous cell state ($C_{t-1}$) should be retained or erased.
 
@@ -2041,7 +2041,7 @@ In language modeling, when the subject switches from singular ("The doctor ...")
 
 ## DL-054: What is the input gate?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 The **input gate** ($i_t$) determines which new information from the current input ($x_t$) and previous hidden state ($h_{t-1}$) should be stored into the updated cell state.
 
@@ -2060,7 +2060,7 @@ $$C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t$$
 
 ## DL-055: What is the output gate?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** HIGH
 
 The **output gate** ($o_t$) determines what information from the current cell state ($C_t$) should be emitted as the observable hidden state ($h_t$) to downstream layers or time steps.
 
@@ -2079,7 +2079,7 @@ The cell state contains full long-term historical records, but downstream tasks 
 
 ## DL-056: How can dropout be applied to recurrent networks?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Applying naive dropout to recurrent state transitions ($h_{t-1} \to h_t$) destroys memory retention because random zeroing cascades over time steps, effectively wiping out the internal memory.
 
@@ -2102,7 +2102,7 @@ If dropout is needed on the recurrent connections ($h_{t-1} \to h_t$):
 
 ## DL-057: How do you choose between GRU and LSTM?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Scenario / Criterion | Preferred Architecture | Rationale |
 |:---|:---:|:---|
@@ -2120,7 +2120,7 @@ Start with **GRU** as a baseline for quick training. If the model suffers from u
 
 ## DL-058: How does BiLSTM compare with unidirectional LSTM?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Feature | Unidirectional LSTM | Bidirectional LSTM (BiLSTM) |
 |:---|:---|:---|
@@ -2135,7 +2135,7 @@ Start with **GRU** as a baseline for quick training. If the model suffers from u
 
 ## DL-059: How does GRU differ from LSTM?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 1. **State Count:**
    - LSTM maintains two distinct state vectors: cell state $C_t$ and hidden state $h_t$.
@@ -2155,7 +2155,7 @@ Start with **GRU** as a baseline for quick training. If the model suffers from u
 
 ## DL-060: How does LSTM address vanishing gradients?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 LSTM solves vanishing gradients primarily through the **Constant Error Carousel (CEC)** and additive cell updates.
 
@@ -2174,7 +2174,7 @@ LSTM solves vanishing gradients primarily through the **Constant Error Carousel 
 
 ## DL-061: How does LSTM compare with GRU?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Attribute | LSTM | GRU (Gated Recurrent Unit) |
 |:---|:---|:---|
@@ -2189,7 +2189,7 @@ LSTM solves vanishing gradients primarily through the **Constant Error Carousel 
 
 ## DL-062: How does LSTM compare with vanilla RNN?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Feature | Vanilla RNN | LSTM |
 |:---|:---|:---|
@@ -2206,7 +2206,7 @@ LSTM solves vanishing gradients primarily through the **Constant Error Carousel 
 
 ## DL-063: How does stacking recurrent layers increase capacity?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Stacking recurrent layers increases representation capacity through **hierarchical temporal abstraction**:
 
@@ -2223,7 +2223,7 @@ Stacking recurrent layers increases representation capacity through **hierarchic
 
 ## DL-064: What does the backward LSTM capture?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The **backward LSTM** computes hidden states moving in reverse chronological order from $t=T$ down to $t=1$:
 $$\overleftarrow{h}_t = \text{LSTM}_{bwd}(x_t, \overleftarrow{h}_{t+1})$$
@@ -2239,7 +2239,7 @@ $$\overleftarrow{h}_t = \text{LSTM}_{bwd}(x_t, \overleftarrow{h}_{t+1})$$
 
 ## DL-065: What does the forward LSTM capture?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The **forward LSTM** computes hidden states moving chronologically from $t=1$ to $t=T$:
 $$\overrightarrow{h}_t = \text{LSTM}_{fwd}(x_t, \overrightarrow{h}_{t-1})$$
@@ -2255,7 +2255,7 @@ $$\overrightarrow{h}_t = \text{LSTM}_{fwd}(x_t, \overrightarrow{h}_{t-1})$$
 
 ## DL-066: When is BiLSTM unsuitable?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 BiLSTM is fundamentally unsuitable in situations where future information cannot be accessed at runtime:
 
@@ -2270,7 +2270,7 @@ BiLSTM is fundamentally unsuitable in situations where future information cannot
 
 ## DL-067: When might GRU train faster than LSTM?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 GRU trains noticeably faster than LSTM under the following conditions:
 1. **Compute-Bound Training:** With 25% fewer matrix multiplications per time step, forward and backward passes execute in fewer FLOPs.
@@ -2284,7 +2284,7 @@ GRU trains noticeably faster than LSTM under the following conditions:
 
 ## DL-068: When should you use LSTM?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 LSTMs are recommended in scenarios characterized by:
 1. **Sequential Data with Long-Range Dependencies:** Text, audio streams, sensor telemetry, and complex financial time series where context from 50–200 steps ago dictates current meaning.
@@ -2298,7 +2298,7 @@ LSTMs are recommended in scenarios characterized by:
 
 ## DL-069: Why does GRU have fewer parameters?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 A standard recurrent layer maps input size $d_{in}$ and hidden size $d_h$.
 - **LSTM requires 4 gate projections:**
@@ -2317,7 +2317,7 @@ GRU has exactly **25% fewer parameters** than an equivalent LSTM with the same h
 
 ## DL-070: Why does bidirectional processing help?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 In natural language and many real-world sequential signals, the meaning of a word or event often depends heavily on what comes **after** it, not just what preceded it.
 
@@ -2336,7 +2336,7 @@ Having future tokens ("iPhone" vs "sliced") immediately clarifies whether "Apple
 
 ## DL-071: Why was LSTM introduced?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Standard (vanilla) RNNs suffer severely from the **vanishing and exploding gradient problem** during Backpropagation Through Time (BPTT). 
 
@@ -2357,7 +2357,7 @@ LSTMs introduce a linear "conveyor belt" known as the **Cell State ($C_t$)**. Be
 
 ## DL-072: What are GRU limitations?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
 
 1. **Less Fine-Grained Memory Control:** Because it lacks an independent output gate, all internal representations are exposed immediately.
 2. **Harder to Control Long Horizons:** On complex, lengthy sequence tasks (>200 time steps) where separate storage and read mechanisms are vital, LSTM often outperforms GRU.
@@ -2370,7 +2370,7 @@ LSTMs introduce a linear "conveyor belt" known as the **Cell State ($C_t$)**. Be
 
 ## DL-073: What are LSTM limitations?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
 
 1. **Sequential Processing Bottleneck:** Recurrent computation is inherently sequential ($h_t$ strictly requires $h_{t-1}$). Training cannot be fully parallelized across time steps, unlike self-attention in Transformers.
 2. **Computational and Parameter Overhead:** Each LSTM cell contains 4 linear transformations ($W_f, W_i, W_c, W_o$), requiring $4 \times (d_{in} \cdot d_h + d_h^2 + d_h)$ parameters per layer—4x more than standard RNNs.
@@ -2383,7 +2383,7 @@ LSTMs introduce a linear "conveyor belt" known as the **Cell State ($C_t$)**. Be
 
 ## DL-074: What are the advantages of Deep RNNs?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
 
 1. **Hierarchical Sequence Representations:** Learns multi-level abstractions (low-level syntax to high-level semantics).
 2. **Higher Model Capacity:** Solves complex sequence modeling problems that cannot be solved by single-layer shallow RNNs regardless of hidden layer width.
@@ -2396,7 +2396,7 @@ LSTMs introduce a linear "conveyor belt" known as the **Cell State ($C_t$)**. Be
 
 ## DL-075: What are the disadvantages of Deep RNNs?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
 
 1. **High Computational Cost:** Stacking $L$ layers multiplies both forward and backward pass FLOPs linearly by $L$.
 2. **Severe Vanishing/Exploding Gradients Across Depth:** In addition to backpropagation through time, gradients must backpropagate through vertical layers, compounding stability issues.
@@ -2409,7 +2409,7 @@ LSTMs introduce a linear "conveyor belt" known as the **Cell State ($C_t$)**. Be
 
 ## DL-076: What is a Deep RNN?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
 
 A **Deep Recurrent Neural Network (Deep RNN / Stacked RNN)** is an architecture where multiple recurrent layers (RNN, LSTM, or GRU) are stacked vertically on top of one another.
 
@@ -2458,7 +2458,7 @@ print("h_n shape:", h_n.shape)        # torch.Size([3, 16, 128]) -> [num_layers,
 
 ## DL-077: What training challenges occur in Deep RNNs?
 
-**Domain:** Topic 42: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 35: RNNs, LSTM, GRU and BiLSTM &nbsp;|&nbsp; **Priority:** LOWER
 
 1. **Dual Gradient Degradation:** Gradients vanish or explode along two axes:
    - **Horizontal axis:** Across sequence time steps $T$ (BPTT).
@@ -2476,7 +2476,7 @@ print("h_n shape:", h_n.shape)        # torch.Size([3, 16, 128]) -> [num_layers,
 
 ## DL-078: What are Query, Key, and Value?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 Inspired by information retrieval and database search systems, self-attention maps inputs to three distinct projection spaces:
 
@@ -2494,7 +2494,7 @@ where $W_Q, W_K \in \mathbb{R}^{d_{\text{model}} \times d_k}$ and $W_V \in \math
 
 ## DL-079: What is BERT?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **BERT (Bidirectional Encoder Representations from Transformers)** is an encoder-only Transformer architecture introduced by Devlin et al. (Google, 2018).
 
@@ -2511,7 +2511,7 @@ where $W_Q, W_K \in \mathbb{R}^{d_{\text{model}} \times d_k}$ and $W_V \in \math
 
 ## DL-080: What is GPT?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **GPT (Generative Pre-trained Transformer)** is a decoder-only Transformer family developed by OpenAI (Radford et al., 2018–present).
 
@@ -2527,7 +2527,7 @@ where $W_Q, W_K \in \mathbb{R}^{d_{\text{model}} \times d_k}$ and $W_V \in \math
 
 ## DL-081: What is a Transformer architecture?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 The **Transformer** is a deep learning architecture introduced in the 2017 paper *"Attention Is All You Need"* by Vaswani et al. It completely dispenses with recurrence and convolutions, relying entirely on **self-attention mechanisms** to capture dependencies between input and output tokens.
 
@@ -2573,7 +2573,7 @@ The **Transformer** is a deep learning architecture introduced in the 2017 paper
 
 ## DL-082: What is a decoder?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 The **Decoder** generates output sequences token-by-token (autoregressively) conditioned on the encoder outputs and prior generated tokens.
 
@@ -2590,7 +2590,7 @@ Each decoder layer contains **three sublayers**:
 
 ## DL-083: What is an encoder?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 In the Transformer architecture, the **Encoder** processes the input sequence and produces rich contextual representations.
 
@@ -2608,7 +2608,7 @@ An encoder is a stack of $N$ identical blocks (typically 6 to 32 layers). Each b
 
 ## DL-084: What is cross-attention?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **Cross-attention** (or Encoder-Decoder Attention) connects the decoder with the encoder representations.
 
@@ -2627,7 +2627,7 @@ This enables the decoder to query the source document to decide what information
 
 ## DL-085: What is fine-tuning?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **Fine-tuning** is the adaptation phase where a pretrained base model is specialized for specific downstream tasks or human alignment:
 
@@ -2641,7 +2641,7 @@ This enables the decoder to query the source document to decide what information
 
 ## DL-086: What is layer normalization?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **Layer Normalization (LayerNorm)** normalizes the activations across the **feature dimension** (hidden channels) for each individual sample and token independently:
 
@@ -2660,7 +2660,7 @@ $$\mu = \frac{1}{d}\sum_{i=1}^d x_i, \quad \sigma^2 = \frac{1}{d}\sum_{i=1}^d (x
 
 ## DL-087: What is masked self-attention?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **Masked self-attention** (or causal self-attention) prevents each token in a generative decoder from attending to future tokens ($j > i$).
 
@@ -2680,7 +2680,7 @@ Applying $\text{softmax}$ turns $-\infty$ into $0$ probability, ensuring zero at
 
 ## DL-088: What is multi-head attention?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 Rather than performing a single attention function with $d_{\text{model}}$-dimensional queries, keys, and values, **Multi-Head Attention (MHA)** projects $Q, K, V$ into $h$ distinct lower-dimensional subspaces, performs attention in parallel across each "head", and concatenates the results:
 
@@ -2700,7 +2700,7 @@ A single attention head tends to average out multiple semantic relationships. Mu
 
 ## DL-089: What is pretraining?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **Pretraining** is the first phase of the modern two-stage LLM paradigm:
 1. **Data:** Unsupervised or self-supervised training on massive web-scale corpora (trillions of tokens consisting of text, books, articles, code).
@@ -2716,7 +2716,7 @@ Pretraining builds the foundational base model upon which specialized behaviors 
 
 ## DL-090: What is scaled dot-product attention?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **Scaled Dot-Product Attention** is the core mathematical formulation computing attention outputs:
 
@@ -2751,7 +2751,7 @@ def scaled_dot_product_attention(Q, K, V, mask=None):
 
 ## DL-091: What is self-attention?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 **Self-attention** is a mechanism that allows each token in a sequence to attend to, weigh, and aggregate information from **every other token in the same sequence**.
 
@@ -2769,7 +2769,7 @@ When self-attention processes the word **"it"**, it computes attention scores wi
 
 ## DL-092: What is the feed-forward network in a Transformer block?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 Each Transformer encoder and decoder block contains a **Position-wise Feed-Forward Network (FFN)** applied identically and separately to each position:
 
@@ -2786,7 +2786,7 @@ $$\text{FFN}(x) = \max(0, x W_1 + b_1) W_2 + b_2 = \text{GELU}(x W_1 + b_1) W_2 
 
 ## DL-093: What is the quadratic complexity problem?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** HIGH
 
 The **quadratic complexity problem** refers to the $\mathcal{O}(N^2)$ scaling of computation time and memory consumption with respect to sequence length $N$ in standard self-attention:
 
@@ -2808,7 +2808,7 @@ This quadratic wall makes naive full attention computationally prohibitive for b
 
 ## DL-094: How do Transformers differ from LSTMs?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Feature | LSTM | Transformer |
 |:---|:---|:---|
@@ -2825,7 +2825,7 @@ This quadratic wall makes naive full attention computationally prohibitive for b
 
 ## DL-095: How do Transformers differ from RNNs?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Dimension | Recurrent Neural Network (RNN) | Transformer |
 |:---|:---|:---|
@@ -2842,7 +2842,7 @@ This quadratic wall makes naive full attention computationally prohibitive for b
 
 ## DL-096: How do modern architectures handle long contexts?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Modern architectures overcome the quadratic attention bottleneck using a combination of algorithmic, mathematical, and hardware optimizations:
 
@@ -2857,7 +2857,7 @@ Modern architectures overcome the quadratic attention bottleneck using a combina
 
 ## DL-097: Why are positional encodings needed?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Because self-attention operations are **permutation invariant** (i.e., $\text{Attention}(P X) = P \text{Attention}(X)$ where $P$ is a permutation matrix), a Transformer without position signals treats the sequence as an unordered "bag of words":
 > *"Dog bites man"* would produce identical representations to *"Man bites dog"*.
@@ -2876,7 +2876,7 @@ Allows the model to easily learn relative positions because $PE_{pos + k}$ can b
 
 ## DL-098: Why is standard attention computationally expensive?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Standard scaled dot-product attention requires computing the inner product between every query token and every key token:
 
@@ -2893,7 +2893,7 @@ For sequence length $N$:
 
 ## DL-099: Why were Transformers introduced?
 
-**Domain:** Topic 43: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 36: Attention and Transformer Architecture &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Transformers were introduced to overcome the fundamental bottlenecks of recurrent architectures (RNNs, LSTMs, GRUs) and convolutional sequence models:
 
@@ -2908,7 +2908,7 @@ Transformers were introduced to overcome the fundamental bottlenecks of recurren
 
 ## DL-100: What are embeddings?
 
-**Domain:** Topic 44: Embeddings and Representation Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 37: Embeddings and Representation Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 An **embedding** is a learned, dense, low-dimensional continuous vector representation of discrete entities (words, subword tokens, sentences, or images):
 $$\mathbf{e} \in \mathbb{R}^d \quad (\text{typically } d \in [768, 4096])$$

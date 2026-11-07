@@ -8,7 +8,7 @@
 
 ## ML-001: How do pipelines prevent data leakage?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Data leakage** occurs when test data information influences preprocessing (e.g., fitting a scaler on the entire dataset before splitting).
 
@@ -36,7 +36,7 @@ Without a pipeline, fitting the scaler on all data before CV would leak test sta
 
 ## ML-002: How does cross-validation work for regression?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 Cross-validation estimates model performance on unseen data by training and evaluating multiple times on different splits:
 
@@ -64,7 +64,7 @@ For time series, use `TimeSeriesSplit` to maintain temporal order.
 
 ## ML-003: What are features and target variables?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Features (X):**
 - Also called: independent variables, predictors, input variables, attributes, covariates.
@@ -99,7 +99,7 @@ y = df['price']
 
 ## ML-004: What is MAE?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Mean Absolute Error** = average of absolute differences between predictions and actuals:
 $$\text{MAE} = \frac{1}{n}\sum_{i=1}^n |y_i - \hat{y}_i|$$
@@ -119,7 +119,7 @@ mae = mean_absolute_error(y_test, y_pred)
 
 ## ML-005: What is MSE?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Mean Squared Error** = average of squared differences:
 $$\text{MSE} = \frac{1}{n}\sum_{i=1}^n (y_i - \hat{y}_i)^2$$
@@ -139,7 +139,7 @@ mse = mean_squared_error(y_test, y_pred)
 
 ## ML-006: What is RMSE?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Root Mean Squared Error** = square root of MSE:
 $$\text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^n (y_i - \hat{y}_i)^2}$$
@@ -161,7 +161,7 @@ rmse = mean_squared_error(y_test, y_pred, squared=False)
 
 ## ML-007: What is a decision boundary?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 A **decision boundary** is the surface (line, plane, or hyperplane) that **separates different classes** in the feature space. Points on different sides of the boundary are assigned to different classes.
 
@@ -203,7 +203,7 @@ plt.show()
 
 ## ML-008: What is a loss function?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 A **loss function** (also called a **cost function** per-sample) measures **how wrong a single prediction is** compared to the true label. It quantifies the error for one training example.
 
@@ -242,7 +242,7 @@ The choice of loss function depends on the task and the desired behavior of the 
 
 ## ML-009: What is an objective function?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 An **objective function** is the broader function that the optimization algorithm seeks to **minimize (or maximize)** during training. It can include:
 
@@ -274,7 +274,7 @@ In practice, these terms are often used interchangeably, but technically the obj
 
 ## ML-010: What is binary classification?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Binary classification** is a classification task where there are exactly **two possible output classes**.
 
@@ -306,7 +306,7 @@ The output is typically a **probability** `P(y=1 | X)`, which is thresholded (us
 
 ## ML-011: What is empirical risk minimization?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Empirical Risk Minimization (ERM)** is the principle of finding model parameters that **minimize the average loss over the training dataset**.
 
@@ -335,7 +335,7 @@ Where:
 
 ## ML-012: What is generalization?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Generalization** is a model's ability to perform well on **new, unseen data** that was not used during training.
 
@@ -363,7 +363,7 @@ Where:
 
 ## ML-013: What is multiclass classification?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Multiclass classification** involves predicting one class from **more than two possible classes**, where each sample belongs to exactly one class.
 
@@ -396,7 +396,7 @@ print(model.predict([[5.1, 3.5, 1.4, 0.2]]))  # e.g., [0]
 
 ## ML-014: What is multilabel classification?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Multilabel classification** is where each sample can belong to **multiple classes simultaneously** (non-mutually exclusive).
 
@@ -433,7 +433,7 @@ model.fit(X, y)
 
 ## ML-015: What is overfitting?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Overfitting** is when a model **memorizes the training data**, including its noise and outliers, and fails to generalize to new data.
 
@@ -469,7 +469,7 @@ print("Test:", model.score(X_test, y_test))      # much lower
 
 ## ML-016: What is regularization?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Regularization** is a set of techniques used to **reduce overfitting** by adding a penalty term to the objective function that discourages the model from learning overly complex patterns.
 
@@ -510,7 +510,7 @@ lasso = Lasso(alpha=0.1)
 
 ## ML-017: What is the difference between parametric and non-parametric models?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Parametric Models** assume a **fixed functional form** for the data distribution. They have a fixed, finite number of parameters that don't grow with the training data.
 
@@ -540,7 +540,7 @@ lasso = Lasso(alpha=0.1)
 
 ## ML-018: What is the difference between regression and classification?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 Both are **supervised learning** tasks, but they differ in the type of output they predict.
 
@@ -574,7 +574,7 @@ model.fit(X_train, y_train)  # y_train contains class labels
 
 ## ML-019: What is the difference between supervised learning and unsupervised learning?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Supervised Learning** trains a model on **labeled data** — each input `X` has a corresponding output `y`. The model learns to map inputs to outputs.
 
@@ -603,7 +603,7 @@ model.fit(X_train, y_train)  # y_train contains class labels
 
 ## ML-020: What is underfitting?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** HIGH
 
 **Underfitting** is when a model is **too simple** to learn the underlying structure of the data — it performs poorly on both training and test sets.
 
@@ -636,7 +636,7 @@ print(model.score(X, y))  # R² will be low — underfitting
 
 ## ML-021: How do you encode categorical variables?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Encoding | Use Case | Notes |
 |----------|----------|-------|
@@ -657,7 +657,7 @@ X_encoded = enc.fit_transform(X[['category_col']])
 
 ## ML-022: How do you handle missing values before regression?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Strategies:**
 
@@ -684,7 +684,7 @@ Always fit on training data only, transform on both train and test to avoid leak
 
 ## ML-023: How do you implement Linear Regression using scikit-learn?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ```python
 from sklearn.linear_model import LinearRegression
@@ -715,7 +715,7 @@ print("Intercept:", model.intercept_)
 
 ## ML-024: How do you interpret residuals?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Residual** = $y_i - \hat{y}_i$ (actual minus predicted)
 
@@ -748,7 +748,7 @@ plt.show()
 
 ## ML-025: How do you split data for regression?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -773,10 +773,10 @@ train, test = df[:split_idx], df[split_idx:]
 
 ## ML-026: What common mistakes occur when applying this technique in production?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Concept Overview:**
-`What common mistakes occur when applying this technique in production` is an essential technical question in Topic 19: Supervised and Unsupervised Learning.
+`What common mistakes occur when applying this technique in production` is an essential technical question in Topic 17: Supervised and Unsupervised Learning.
 
 **Detailed Technical Breakdown:**
 - **Foundational Definition:** Serves as a primary building block within data science, statistical modeling, and applied AI workflows.
@@ -799,7 +799,7 @@ Explain both the theoretical foundation and practical trade-offs encountered whe
 
 ## ML-027: What metrics evaluate regression models?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Metric | Formula | Interpretation |
 |--------|---------|----------------|
@@ -816,7 +816,7 @@ Explain both the theoretical foundation and practical trade-offs encountered whe
 
 ## ML-028: When is MAE preferred over RMSE?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Prefer MAE | Prefer RMSE |
 |-----------|------------|
@@ -833,7 +833,7 @@ Explain both the theoretical foundation and practical trade-offs encountered whe
 
 ## ML-029: When should features be standardized?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Standardize when:**
 - Algorithm is distance-based (KNN, SVM, k-Means)
@@ -857,10 +857,10 @@ X_test_scaled = scaler.transform(X_test)  # Use training stats!
 
 ## ML-030: In a real-world project, how would you explain this concept to a non-technical stakeholder?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** LOWER
 
 **Concept Overview:**
-`In a real-world project, how would you explain this concept to a non-technical stakeholder` is an essential technical question in Topic 19: Supervised and Unsupervised Learning.
+`In a real-world project, how would you explain this concept to a non-technical stakeholder` is an essential technical question in Topic 17: Supervised and Unsupervised Learning.
 
 **Detailed Technical Breakdown:**
 - **Foundational Definition:** Serves as a primary building block within data science, statistical modeling, and applied AI workflows.
@@ -883,7 +883,7 @@ Explain both the theoretical foundation and practical trade-offs encountered whe
 
 ## ML-031: What is MAPE and what are its limitations?
 
-**Domain:** Topic 19: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 17: Supervised and Unsupervised Learning &nbsp;|&nbsp; **Priority:** LOWER
 
 **Mean Absolute Percentage Error:**
 $$\text{MAPE} = \frac{100\%}{n} \sum_{i=1}^n \left|\frac{y_i - \hat{y}_i}{y_i}\right|$$
@@ -904,7 +904,7 @@ Alternative: **SMAPE** (Symmetric MAPE) handles some of these issues.
 
 ## ML-032: How can multicollinearity be detected?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 Several methods can detect multicollinearity:
 
@@ -954,7 +954,7 @@ print(vif_data)
 
 ## ML-033: What are odds and log-odds?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Odds** = ratio of probability of success to probability of failure:
 $$\text{Odds} = \frac{p}{1 - p}$$
@@ -970,7 +970,7 @@ Logistic Regression models log-odds as a **linear function** of features. This i
 
 ## ML-034: What does a predicted probability represent?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 $\hat{p} = P(y=1 | x)$ — the probability that the given input belongs to the positive class.
 
@@ -982,7 +982,7 @@ Example: If a spam classifier outputs 0.87, there is an 87% chance the email is 
 
 ## ML-035: What is Adjusted R-squared?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Adjusted R²** is a modified version of R² that **penalizes the addition of features that don't improve the model**, adjusting for the number of predictors.
 
@@ -1026,7 +1026,7 @@ print(f"Adjusted R²: {adj_r2:.4f}")
 
 ## ML-036: What is Linear Regression?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Linear Regression** is a supervised learning algorithm that models the relationship between one or more input features `X` and a continuous output `y` by fitting a **linear equation** to the data.
 
@@ -1066,7 +1066,7 @@ print(f"Prediction for x=6: {model.predict([[6]])[0]:.2f}")
 
 ## ML-037: What is Logistic Regression?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 Logistic Regression is a supervised learning algorithm used for **binary (and multiclass) classification**. Despite the name "regression", it predicts the probability of a class label using the **logistic (sigmoid) function** to squash a linear combination of features into the [0, 1] range.
 
@@ -1080,7 +1080,7 @@ If $\hat{y} \geq 0.5$, predict class 1; else class 0.
 
 ## ML-038: What is Ordinary Least Squares?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Ordinary Least Squares (OLS)** is the standard method for estimating the parameters of a linear regression model by **minimizing the sum of squared residuals**.
 
@@ -1118,7 +1118,7 @@ When the linear regression assumptions hold, OLS is **BLUE** — **Best Linear U
 
 ## ML-039: What is R-squared?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **R-squared (R², Coefficient of Determination)** measures the **proportion of variance in the target variable explained by the model**.
 
@@ -1160,7 +1160,7 @@ print(f"R²: {r2:.4f}")
 
 ## ML-040: What is VIF?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Variance Inflation Factor (VIF)** quantifies how much the variance of a regression coefficient is **inflated due to multicollinearity** with other features.
 
@@ -1208,7 +1208,7 @@ print(vif_df)
 
 ## ML-041: What is a logistic decision boundary?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 The decision boundary is the set of points where $\hat{p} = 0.5$, which means:
 $$w^T x + b = 0$$
@@ -1221,7 +1221,7 @@ This is a **linear hyperplane** in feature space. For 2D features, it's a line; 
 
 ## ML-042: What is binary cross-entropy?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 Binary cross-entropy measures the **difference between the true label distribution and the predicted probability distribution**:
 
@@ -1236,7 +1236,7 @@ As $\hat{p} \to 1$ when $y=1$: loss → 0. As $\hat{p} \to 0$ when $y=1$: loss �
 
 ## ML-043: What is gradient descent?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Gradient Descent** is an iterative optimization algorithm used to **minimize a loss function** by updating model parameters in the direction of the **negative gradient**.
 
@@ -1285,7 +1285,7 @@ theta_gd = gradient_descent(X_b, y, lr=0.01, epochs=1000)
 
 ## ML-044: What is heteroscedasticity?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Heteroscedasticity** means the **variance of the residuals (errors) is not constant** across all levels of the independent variables — it changes systematically.
 
@@ -1321,7 +1321,7 @@ print(f"Breusch-Pagan p-value: {p_value:.4f}")
 
 ## ML-045: What is homoscedasticity?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Homoscedasticity** means the **variance of the residuals (errors) is constant** across all levels of the independent variables.
 
@@ -1355,7 +1355,7 @@ plt.show()
 
 ## ML-046: What is maximum likelihood estimation?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 MLE finds parameters that **maximize the probability of observing the training data**.
 
@@ -1370,7 +1370,7 @@ Taking the negative log gives binary cross-entropy. So **minimizing cross-entrop
 
 ## ML-047: What is mini-batch gradient descent?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Mini-batch Gradient Descent** is a compromise between Batch GD and SGD. It computes the gradient on a **small random subset (mini-batch)** of the training data at each step.
 
@@ -1416,7 +1416,7 @@ def mini_batch_gd(X, y, lr=0.01, epochs=100, batch_size=32):
 
 ## ML-048: What is multicollinearity?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Multicollinearity** occurs when two or more independent variables (features) in a regression model are **highly correlated** with each other.
 
@@ -1452,7 +1452,7 @@ plt.show()
 
 ## ML-049: What is multinomial Logistic Regression?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 Extends binary logistic regression to **K > 2 classes** (also called **Softmax Regression**).
 
@@ -1466,7 +1466,7 @@ The softmax function normalizes outputs so all class probabilities sum to 1. Use
 
 ## ML-050: What is multiple Linear Regression?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Multiple Linear Regression** uses **two or more independent variables** (features) to predict a continuous target variable.
 
@@ -1511,7 +1511,7 @@ print("Coefficients:", model.coef_)
 
 ## ML-051: What is one-vs-rest classification?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **OvR (One-vs-Rest)** trains K binary classifiers, one per class. Each classifier learns to separate class k from all others.
 
@@ -1529,7 +1529,7 @@ For prediction, pick the class with the highest score. Simpler than multinomial 
 
 ## ML-052: What is simple Linear Regression?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Simple Linear Regression** involves exactly **one independent variable (feature)** predicting one dependent variable (target).
 
@@ -1577,7 +1577,7 @@ Simple linear regression is the foundation of all regression models and is easy 
 
 ## ML-053: What is stochastic gradient descent?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Stochastic Gradient Descent (SGD)** updates model parameters using the gradient computed from **one randomly selected training sample** at a time.
 
@@ -1618,7 +1618,7 @@ model.fit(X_train, y_train)
 
 ## ML-054: What is the Mean Squared Error loss?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 **Mean Squared Error (MSE)** is the average of the squared differences between predicted and actual values.
 
@@ -1662,7 +1662,7 @@ Setting to zero gives the Normal Equation for OLS.
 
 ## ML-055: What is the sigmoid function?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** HIGH
 
 $$\sigma(z) = \frac{1}{1 + e^{-z}}$$
 
@@ -1680,7 +1680,7 @@ It maps any real number to a probability value.
 
 ## ML-056: How are Logistic Regression coefficients interpreted?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Coefficients represent the **change in log-odds** per unit increase in a feature:
 
@@ -1694,7 +1694,7 @@ More interpretable: **exponentiated coefficient** $e^{w_j}$ = **odds ratio**. If
 
 ## ML-057: How do outliers affect Linear Regression?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Outliers can have a significant and **disproportionate influence** on Linear Regression:
 
@@ -1738,7 +1738,7 @@ print(f"Huber slope: {huber.coef_[0]:.3f}")
 
 ## ML-058: How do residual plots help?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Residual plots** are diagnostic tools that help assess whether the **linear regression assumptions are met** and identify potential issues.
 
@@ -1786,7 +1786,7 @@ plt.show()
 
 ## ML-059: How do you handle class imbalance?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Method | Description |
 |--------|-------------|
@@ -1806,7 +1806,7 @@ model = LogisticRegression(class_weight='balanced')
 
 ## ML-060: How do you handle non-linear relationships?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 When the relationship between features and target is non-linear, several strategies can be applied:
 
@@ -1854,7 +1854,7 @@ X['x1_x2'] = X['x1'] * X['x2']
 
 ## ML-061: How does changing the classification threshold affect predictions?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Default threshold = 0.5. Changing it creates a **precision-recall tradeoff**:
 
@@ -1875,7 +1875,7 @@ The **ROC curve** and **PR curve** help choose the optimal threshold.
 
 ## ML-062: How does regularization work in Logistic Regression?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Regularization adds a penalty to the loss to prevent overfitting:
 
@@ -1894,7 +1894,7 @@ model = LogisticRegression(C=0.1, penalty='l2')  # Strong L2 regularization
 
 ## ML-063: What assumptions does Linear Regression make?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Linear Regression relies on several key assumptions. Violations can lead to biased or inefficient estimates.
 
@@ -1941,7 +1941,7 @@ plt.show()
 
 ## ML-064: What loss function is used?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Logistic Regression uses **Binary Cross-Entropy (Log Loss)**:
 
@@ -1955,7 +1955,7 @@ This penalizes confident wrong predictions much more heavily than uncertain ones
 
 ## ML-065: Why are squared errors used?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Squared errors are preferred over other error forms for several reasons:
 
@@ -1980,7 +1980,7 @@ Squared errors are preferred over other error forms for several reasons:
 
 ## ML-066: Why is Logistic Regression used for classification?
 
-**Domain:** Topic 20: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 18: Linear and Logistic Regression &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Linear regression can predict values outside [0, 1], making it unsuitable for probabilities. Logistic Regression:
 - Outputs values in (0, 1) via the sigmoid function
@@ -1994,7 +1994,7 @@ Linear regression can predict values outside [0, 1], making it unsuitable for pr
 
 ## ML-067: How do you interpret features selected by Lasso?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 Lasso sets irrelevant feature coefficients to exactly zero, performing **automatic feature selection**:
 
@@ -2018,7 +2018,7 @@ print(selected)
 
 ## ML-068: How does regularization affect bias and variance?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 Regularization directly controls the **bias-variance tradeoff**:
 
@@ -2068,7 +2068,7 @@ for alpha in alphas:
 
 ## ML-069: Should features be scaled before Ridge and Lasso?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 **Yes — scaling is essential** before applying Ridge or Lasso regularization.
 
@@ -2112,7 +2112,7 @@ X_test_scaled = scaler.transform(X_test)
 
 ## ML-070: What is Elastic Net?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 **Elastic Net** combines **both L1 and L2 regularization** into a single penalty, getting the benefits of both Ridge and Lasso.
 
@@ -2163,7 +2163,7 @@ print(f"Best l1_ratio: {encv.named_steps['elasticnetcv'].l1_ratio_}")
 
 ## ML-071: What is Lasso Regression?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 **Lasso Regression** (Least Absolute Shrinkage and Selection Operator, **L1 Regularization**) adds the **sum of absolute values of coefficients** as a penalty.
 
@@ -2198,7 +2198,7 @@ print("Selected features:", selected_features.tolist())
 
 ## ML-072: What is LassoCV?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 `LassoCV` uses **coordinate descent** with k-fold CV to find the best alpha for Lasso:
 
@@ -2221,7 +2221,7 @@ It follows the **regularization path** efficiently — evaluates many alphas fas
 
 ## ML-073: What is Ridge Regression?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 **Ridge Regression** (also called **L2 Regularization** or **Tikhonov Regularization**) adds the **sum of squared coefficients** as a penalty to the OLS loss.
 
@@ -2264,7 +2264,7 @@ y_pred = model.predict(X_test)
 
 ## ML-074: What is RidgeCV?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 `RidgeCV` is an efficient cross-validated Ridge Regression. It uses **generalized cross-validation (GCV)** to select the best alpha without repeating full training multiple times:
 
@@ -2288,7 +2288,7 @@ More efficient than `GridSearchCV` for Ridge specifically. Note: scaling should 
 
 ## ML-075: What is the difference between L1 and L2 regularization?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 | Aspect | L1 (Lasso) | L2 (Ridge) |
 |--------|-----------|-----------|
@@ -2322,7 +2322,7 @@ l2_penalty = np.sum(theta ** 2)         # = 13.25
 
 ## ML-076: What is the regularization parameter?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** HIGH
 
 The **regularization parameter** (commonly denoted `λ` in mathematics or `alpha` in scikit-learn) controls the **strength of the regularization penalty**.
 
@@ -2364,7 +2364,7 @@ for alpha in alphas:
 
 ## ML-077: How do you compare Linear, Ridge, and Lasso?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ```python
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
@@ -2398,7 +2398,7 @@ for name, model in models.items():
 
 ## ML-078: How do you implement Lasso Regression?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ```python
 from sklearn.linear_model import Lasso
@@ -2425,7 +2425,7 @@ print("Selected features:", selected)
 
 ## ML-079: How do you implement Ridge Regression?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ```python
 from sklearn.linear_model import Ridge
@@ -2454,7 +2454,7 @@ print("Coefficients:", pipe.named_steps['ridge'].coef_)
 
 ## ML-080: How do you select the best regularization strength?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The optimal regularization strength (lambda/alpha) is selected using **cross-validation** to find the value that minimizes validation error.
 
@@ -2517,7 +2517,7 @@ plt.legend(); plt.show()
 
 ## ML-081: How do you tune alpha?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ```python
 from sklearn.model_selection import GridSearchCV
@@ -2545,7 +2545,7 @@ Use a **log-scale** for alpha search since it spans orders of magnitude.
 
 ## ML-082: How does Lasso perform feature selection?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Lasso drives **some coefficients to exactly zero** through the geometry of its L1 penalty, effectively removing those features from the model.
 
@@ -2590,7 +2590,7 @@ for i, coef in enumerate(lasso.coef_):
 
 ## ML-083: How does Ridge affect coefficients?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Ridge regression **shrinks all coefficients toward zero** proportionally, but **never sets any coefficient exactly to zero**.
 
@@ -2632,7 +2632,7 @@ print("Ridge Coefficients (α=10):", np.round(ridge.coef_, 2))
 
 ## ML-084: What happens when alpha is too high?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 When alpha (regularization strength) is too high:
 - Penalty dominates the loss function
@@ -2654,7 +2654,7 @@ print(ridge.coef_)  # All near zero
 
 ## ML-085: What happens when regularization is very high?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 When `λ → ∞`, the regularization penalty dominates the objective function, forcing **all coefficients toward zero**.
 
@@ -2694,7 +2694,7 @@ for alpha in [1, 100, 10000, 1e9]:
 
 ## ML-086: What happens when regularization is zero?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 When `λ = 0`, the regularization term vanishes and the model reduces to **ordinary OLS (Ordinary Least Squares)**:
 
@@ -2733,7 +2733,7 @@ print("OLS:         ", np.round(ols.coef_, 4))
 
 ## ML-087: When would you prefer Ridge over Lasso?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Prefer Ridge when:**
 
@@ -2774,7 +2774,7 @@ print(f"Lasso CV score: {lasso_cv.score(X_test, y_test):.4f}")
 
 ## ML-088: Why is Elastic Net useful for correlated features?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Elastic Net solves a key weakness of Lasso with correlated features:
 
@@ -2818,7 +2818,7 @@ print("ElasticNet:", np.round(ElasticNet(0.05, l1_ratio=0.5).fit(X_s, y).coef_, 
 
 ## ML-089: Why is regularization needed?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Regularization** is needed to prevent **overfitting** — the situation where a model learns the training data too well (including noise) and fails to generalize to new data.
 
@@ -2849,7 +2849,7 @@ The `λ` parameter controls the trade-off between fitting the data and keeping c
 
 ## ML-090: Why should scaling be inside a pipeline?
 
-**Domain:** Topic 21: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 19: Regularization: Ridge, Lasso and Elastic Net &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Outside pipeline (WRONG — causes leakage):**
 ```python
@@ -2872,7 +2872,7 @@ When the scaler is inside the pipeline, it's re-fit on each training fold during
 
 ## ML-091: What are prior, likelihood, and posterior probabilities?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 | Term | Formula | Meaning |
 |------|---------|---------|
@@ -2891,7 +2891,7 @@ When the scaler is inside the pipeline, it's re-fit on each training fold during
 
 ## ML-092: What is Bayes theorem?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 Bayes' theorem relates the **posterior** probability to the **prior** and **likelihood**:
 
@@ -2913,7 +2913,7 @@ $$\hat{y} = \arg\max_y P(y \mid X) = \arg\max_y P(y) \prod_{i=1}^{n} P(x_i \mid 
 
 ## ML-093: What is Bernoulli Naive Bayes?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **Bernoulli Naive Bayes** models binary/boolean features — each feature indicates whether a term **occurs or not** (presence/absence).
 
@@ -2942,7 +2942,7 @@ bnb.fit(X_binary, y)
 
 ## ML-094: What is Euclidean distance?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **Euclidean distance** is the straight-line distance between two points in n-dimensional space:
 
@@ -2967,7 +2967,7 @@ print(euclidean)  # 5.0
 
 ## ML-095: What is Gaussian Naive Bayes?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **Gaussian Naive Bayes** assumes that continuous features follow a **normal (Gaussian) distribution** within each class.
 
@@ -2991,7 +2991,7 @@ print(gnb.var_)     # class variances
 
 ## ML-096: What is KNN?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **K-Nearest Neighbors (KNN)** is a simple, non-parametric, instance-based learning algorithm used for both **classification** and **regression**.
 
@@ -3013,7 +3013,7 @@ predictions = knn.predict(X_test)
 
 ## ML-097: What is Laplace smoothing?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **Laplace smoothing** (add-1 smoothing) prevents zero probabilities by adding a small count `α` (typically 1) to every feature count:
 
@@ -3040,7 +3040,7 @@ mnb.fit(X_train, y_train)
 
 ## ML-098: What is Manhattan distance?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **Manhattan distance** (also called L1 distance or city-block distance) is the sum of absolute differences:
 
@@ -3065,7 +3065,7 @@ print(manhattan)  # 7
 
 ## ML-099: What is Multinomial Naive Bayes?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **Multinomial Naive Bayes** models feature counts (or frequencies) and assumes features follow a **multinomial distribution**.
 
@@ -3092,7 +3092,7 @@ mnb.fit(X, y)
 
 ## ML-100: What is Naive Bayes?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 **Naive Bayes** is a family of probabilistic classifiers based on applying **Bayes' theorem** with a strong (naive) assumption of **conditional independence** among features given the class label.
 
@@ -3114,7 +3114,7 @@ predictions = model.predict(X_test)
 
 ## ML-101: What is the curse of dimensionality?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 The **curse of dimensionality** refers to the phenomenon where the performance of distance-based algorithms degrades as the number of features (dimensions) increases:
 
@@ -3134,7 +3134,7 @@ The **curse of dimensionality** refers to the phenomenon where the performance o
 
 ## ML-102: What is the zero-frequency problem?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** HIGH
 
 The **zero-frequency problem** occurs when a feature value never appears with a particular class in the training data, making `P(xᵢ | y) = 0`.
 
@@ -3150,7 +3150,7 @@ $$P(y \mid X) \propto P(y) \prod_i P(x_i \mid y) = 0 \text{ if any } P(x_i \mid 
 
 ## ML-103: How can KNN handle imbalanced datasets?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 KNN is inherently biased toward the **majority class** in imbalanced settings because more majority-class points exist among the K neighbors.
 
@@ -3178,7 +3178,7 @@ pipeline.fit(X_train, y_train)
 
 ## ML-104: How do you choose K?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Several methods help choose the optimal number of clusters:
 
@@ -3218,7 +3218,7 @@ plt.show()
 
 ## ML-105: How does KNN make predictions?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **For Classification:**
 1. Compute distance from the query point to all training points
@@ -3248,7 +3248,7 @@ knn_reg = KNeighborsRegressor(n_neighbors=5, weights='distance')
 
 ## ML-106: How does KNN perform regression?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 In **KNN Regression**:
 1. Find the K nearest neighbors to the query point
@@ -3275,7 +3275,7 @@ y_pred = knn_reg.predict(X_test)
 
 ## ML-107: What conditional independence assumption does it make?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Given the class label `y`, all features `x₁, x₂, ..., xₙ` are assumed to be **mutually independent**:
 
@@ -3292,7 +3292,7 @@ This means:
 
 ## ML-108: What distance metrics can KNN use?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Metric | Formula | Best Used For |
 |--------|---------|--------------|
@@ -3313,7 +3313,7 @@ knn = KNeighborsClassifier(n_neighbors=5, metric='minkowski', p=2)
 
 ## ML-109: What happens when K is too large?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 When K is **too large** (e.g., K = n):
 
@@ -3331,7 +3331,7 @@ When K is **too large** (e.g., K = n):
 
 ## ML-110: What happens when K is too small?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 When K is **too small** (e.g., K=1):
 
@@ -3349,7 +3349,7 @@ When K is **too small** (e.g., K=1):
 
 ## ML-111: Why is KNN called a lazy learner?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 KNN is called a **lazy learner** because it defers all computation to prediction time:
 
@@ -3369,7 +3369,7 @@ KNN is called a **lazy learner** because it defers all computation to prediction
 
 ## ML-112: Why is feature scaling important?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 K-Means uses **Euclidean distance** to assign points to clusters. If features have **different scales**, high-magnitude features dominate the distance calculation:
 
@@ -3404,7 +3404,7 @@ kmeans.fit(X_scaled)
 
 ## ML-113: Why is it called naive?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** MEDIUM
 
 It is called **naive** because it makes a simplifying assumption that is rarely true in real data:
 
@@ -3421,7 +3421,7 @@ It is called **naive** because it makes a simplifying assumption that is rarely 
 
 ## ML-114: What are KNN's computational limitations?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** LOWER
 
 | Limitation | Detail |
 |-----------|--------|
@@ -3446,7 +3446,7 @@ knn = KNeighborsClassifier(n_neighbors=5, algorithm='ball_tree')
 
 ## ML-115: What are Naive Bayes limitations?
 
-**Domain:** Topic 22: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 20: Naive Bayes and K-Nearest Neighbors &nbsp;|&nbsp; **Priority:** LOWER
 
 | Limitation | Explanation |
 |-----------|-------------|
@@ -3468,7 +3468,7 @@ knn = KNeighborsClassifier(n_neighbors=5, algorithm='ball_tree')
 
 ## ML-116: What are Decision Tree advantages?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 | Advantage | Description |
 |-----------|-------------|
@@ -3487,7 +3487,7 @@ knn = KNeighborsClassifier(n_neighbors=5, algorithm='ball_tree')
 
 ## ML-117: What are pre-pruning and post-pruning?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 ### Pre-pruning (Early Stopping)
 Stop tree growth **before** it fully develops using constraints:
@@ -3516,7 +3516,7 @@ for alpha in ccp_alphas:
 
 ## ML-118: What are root, internal, and leaf nodes?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 ```
           [Root Node]          ← First split (best overall feature)
@@ -3541,7 +3541,7 @@ for alpha in ccp_alphas:
 
 ## ML-119: What is Gini impurity?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 **Gini impurity** measures the probability of misclassifying a randomly chosen sample if it were labeled according to the class distribution at that node:
 
@@ -3570,7 +3570,7 @@ def gini(y):
 
 ## ML-120: What is a Decision Tree?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 A **Decision Tree** is a supervised learning algorithm that makes predictions by learning a hierarchical set of **if-else decision rules** from the training data.
 
@@ -3594,7 +3594,7 @@ print(export_text(clf, feature_names=feature_names))
 
 ## ML-121: What is entropy?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 **Entropy** (from information theory) measures the average information (surprise) in a distribution — i.e., the level of disorder at a node:
 
@@ -3618,7 +3618,7 @@ def entropy(y):
 
 ## ML-122: What is information gain?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 **Information Gain (IG)** measures how much a split reduces entropy (or impurity) compared to the parent node:
 
@@ -3642,7 +3642,7 @@ def information_gain(parent, left, right):
 
 ## ML-123: What is maximum depth?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 `max_depth` limits how many levels deep the tree can grow from the root:
 
@@ -3665,7 +3665,7 @@ for depth in range(1, 20):
 
 ## ML-124: What is minimum samples leaf?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 `min_samples_leaf` is the **minimum number of samples** that must remain in a leaf node after a split:
 
@@ -3691,7 +3691,7 @@ clf = DecisionTreeClassifier(
 
 ## ML-125: What is minimum samples split?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 `min_samples_split` is the **minimum number of samples** required at a node to allow it to be split further:
 
@@ -3712,7 +3712,7 @@ clf = DecisionTreeClassifier(
 
 ## ML-126: What is the difference between Gini and entropy?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** HIGH
 
 | Property | Gini Impurity | Entropy |
 |----------|--------------|---------|
@@ -3730,7 +3730,7 @@ clf = DecisionTreeClassifier(
 
 ## ML-127: Can Regression Trees extrapolate?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **No — Regression Trees cannot extrapolate beyond the range of training data.**
 
@@ -3758,7 +3758,7 @@ print(reg.predict([[20]]))   # Returns max leaf mean, not 40
 
 ## ML-128: How do you prune a Regression Tree?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ### Pre-pruning (Constraining Growth)
 ```python
@@ -3795,7 +3795,7 @@ best_alpha = ccp_alphas[np.argmax(cv_scores)]
 
 ## ML-129: How does a Decision Tree choose a split?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 At each node, the tree evaluates **all features** and **all thresholds** and selects the split that best **reduces impurity** (makes child nodes purer):
 
@@ -3821,7 +3821,7 @@ The process is **greedy** — it makes the locally optimal split at each step, n
 
 ## ML-130: How does a Regression Tree differ from a Classification Tree?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Aspect | Classification Tree | Regression Tree |
 |--------|-------------------|----------------|
@@ -3847,7 +3847,7 @@ y_pred = reg.predict(X_test)
 
 ## ML-131: How does a Regression Tree make predictions?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 For a given input `x`, the tree routes it down the branches using learned rules until it reaches a **leaf node**. The prediction is the **mean of the training samples** in that leaf:
 
@@ -3868,7 +3868,7 @@ Feature Age ≤ 30?
 
 ## ML-132: How does tree depth affect performance?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Tree depth is the primary control of the **bias-variance tradeoff**:
 
@@ -3900,7 +3900,7 @@ for d in depths:
 
 ## ML-133: How is feature importance calculated?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Random Forest feature importance uses **Mean Decrease in Impurity (MDI)** — the total weighted impurity reduction attributable to each feature, averaged over all trees:
 
@@ -3928,7 +3928,7 @@ plt.show()
 
 ## ML-134: What causes Decision Trees to overfit?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Decision Trees can grow until every leaf contains a **single training sample**, memorizing the training data:
 
@@ -3952,7 +3952,7 @@ clf_overfit.fit(X_train, y_train)
 
 ## ML-135: What split criterion is used?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Regression Trees use **variance reduction** (equivalent to minimizing MSE) as the split criterion:
 
@@ -3975,7 +3975,7 @@ reg_fri = DecisionTreeRegressor(criterion='friedman_mse')    # Improved MSE heur
 
 ## ML-136: Why do Regression Trees produce piecewise constant predictions?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Regression Trees make **axis-aligned, rectangular splits** — each leaf covers a rectangular region of the feature space, and all inputs in that region receive the **same constant prediction** (the leaf mean).
 
@@ -4001,7 +4001,7 @@ y_pred = reg.predict(X)
 
 ## ML-137: What are Decision Tree disadvantages?
 
-**Domain:** Topic 23: Decision Trees &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 21: Decision Trees &nbsp;|&nbsp; **Priority:** LOWER
 
 | Disadvantage | Description |
 |-------------|-------------|
@@ -4019,7 +4019,7 @@ y_pred = reg.predict(X)
 
 ## ML-138: What is a strong learner?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 A **strong learner** is a model that achieves **arbitrarily high accuracy** — as close to perfect as desired.
 
@@ -4033,7 +4033,7 @@ A **strong learner** is a model that achieves **arbitrarily high accuracy** — 
 
 ## ML-139: What is a weak learner?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 A **weak learner** is a model that performs only **slightly better than random guessing**:
 
@@ -4058,7 +4058,7 @@ Boosting theory (Schapire, 1990): any algorithm that can produce weak learners c
 
 ## ML-140: What is bagging?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 **Bagging (Bootstrap AGGregating)** trains multiple models **in parallel** on different **bootstrap samples** of the training data, then aggregates predictions:
 
@@ -4089,7 +4089,7 @@ bag.fit(X_train, y_train)
 
 ## ML-141: What is blending?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 **Blending** is a simplified version of stacking where:
 - Base models are trained on a training split
@@ -4109,7 +4109,7 @@ bag.fit(X_train, y_train)
 
 ## ML-142: What is boosting?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 **Boosting** trains models **sequentially**, where each model focuses on correcting the errors of the previous one:
 
@@ -4140,7 +4140,7 @@ gb.fit(X_train, y_train)
 
 ## ML-143: What is bootstrap sampling?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 **Bootstrap sampling** draws `n` samples **with replacement** from a dataset of size `n`:
 
@@ -4169,7 +4169,7 @@ $$P(\text{not selected once}) = \left(1 - \frac{1}{n}\right)^n \xrightarrow{n \t
 
 ## ML-144: What is ensemble learning?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 **Ensemble learning** combines predictions from **multiple models** (base learners) to produce a final prediction that is better than any individual model alone.
 
@@ -4201,7 +4201,7 @@ Three main strategies:
 
 ## ML-145: What is out-of-bag evaluation?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 In Bagging, each bootstrap sample leaves out ~36.8% of training samples (Out-of-Bag samples). These **OOB samples** were never seen by that particular tree and can be used as a **free validation set**:
 
@@ -4227,7 +4227,7 @@ print(f"OOB Score: {rf.oob_score_:.4f}")
 
 ## ML-146: What is stacking?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 **Stacking (Stacked Generalization)** is an ensemble method where predictions from multiple **level-0 base models** are used as inputs to a **level-1 meta-model**:
 
@@ -4264,7 +4264,7 @@ stack.fit(X_train, y_train)
 
 ## ML-147: What is the difference between bagging and boosting?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** HIGH
 
 | Aspect | Bagging | Boosting |
 |--------|---------|---------|
@@ -4287,7 +4287,7 @@ stack.fit(X_train, y_train)
 
 ## ML-148: How does bagging reduce variance?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Each bootstrap sample trains a model on slightly different data, producing diverse models. When averaged, their individual errors cancel out:
 
@@ -4307,7 +4307,7 @@ $$\text{Var}(\bar{f}) = \rho \sigma^2 + \frac{1-\rho}{M} \sigma^2$$
 
 ## ML-149: How does boosting reduce bias?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Boosting reduces bias by **sequentially fitting residuals** — each model corrects the previous model's errors:
 
@@ -4325,7 +4325,7 @@ Where `hₘ` is trained on the **residuals** (or weighted errors) of `F_{m-1}`.
 
 ## ML-150: Why can boosting be sensitive to noisy data?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Boosting **focuses increasingly on misclassified samples** by upweighting them. This becomes problematic with noisy data:
 
@@ -4355,7 +4355,7 @@ gb = GradientBoostingClassifier(
 
 ## ML-151: Why can combining models improve performance?
 
-**Domain:** Topic 24: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 22: Ensemble Learning, Bagging and Boosting &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Combining models works when individual models make **different errors**. If model errors are uncorrelated, averaging cancels them out.
 
@@ -4377,10 +4377,10 @@ Variance drops by factor `M` with `M` uncorrelated models.
 
 ## ML-152: What are its advantages?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
 
 **Concept Overview:**
-`What are its advantages` is an essential technical question in Topic 25: Random Forest.
+`What are its advantages` is an essential technical question in Topic 23: Random Forest.
 
 **Detailed Technical Breakdown:**
 - **Foundational Definition:** Serves as a primary building block within data science, statistical modeling, and applied AI workflows.
@@ -4403,7 +4403,7 @@ Explain both the theoretical foundation and practical trade-offs encountered whe
 
 ## ML-153: What is a Random Forest?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
 
 **Random Forest** is an ensemble learning algorithm that builds many **decorrelated decision trees** and aggregates their predictions:
 
@@ -4430,7 +4430,7 @@ rf_reg.fit(X_train, y_train)
 
 ## ML-154: What is out-of-bag error?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
 
 Since each tree is trained on a bootstrap sample (~63.2% of data), ~36.8% of samples are **Out-of-Bag (OOB)** for each tree. These samples can be used to estimate generalization error:
 
@@ -4461,7 +4461,7 @@ oob_predictions = rf.oob_decision_function_   # shape: (n_samples, n_classes)
 
 ## ML-155: What is permutation importance?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** HIGH
 
 **Permutation Importance** measures feature importance by computing how much the model's performance **degrades** when a feature's values are randomly shuffled (breaking its relationship with the target):
 
@@ -4497,7 +4497,7 @@ print(perm_importances)
 
 ## ML-156: Can Random Forest overfit?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Yes, but it is much harder to overfit than a single Decision Tree:**
 
@@ -4526,7 +4526,7 @@ for n in range(1, 200):
 
 ## ML-157: How does Random Forest handle imbalanced classes?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Random Forest, like most algorithms, is biased toward the majority class. Several strategies help:
 
@@ -4558,7 +4558,7 @@ y_pred = (probas >= threshold).astype(int)
 
 ## ML-158: How does Random Forest reduce correlation between trees?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Two sources of randomness reduce tree correlation:
 
@@ -4579,7 +4579,7 @@ $$\text{Var}(\text{RF}) = \rho \sigma^2 + \frac{1 - \rho}{M} \sigma^2$$
 
 ## ML-159: How does Random Forest use bagging?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Random Forest applies **bagging (Bootstrap AGGregating)**:
 
@@ -4607,7 +4607,7 @@ rf = RandomForestClassifier(
 
 ## ML-160: How does max_depth affect the model?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 `max_depth` controls the depth of **individual trees** in the forest:
 
@@ -4632,7 +4632,7 @@ rf_shallow = RandomForestClassifier(max_depth=5, n_estimators=100)   # more regu
 
 ## ML-161: How does max_features affect the model?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 `max_features` controls the number of features considered at **each split** — the primary lever for controlling tree diversity:
 
@@ -4655,7 +4655,7 @@ High max_features →  Low tree diversity   →  Higher variance, lower per-tree
 
 ## ML-162: What hyperparameters are important?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Hyperparameter | Default | Effect |
 |---------------|---------|--------|
@@ -4694,7 +4694,7 @@ print(rf_search.best_params_)
 
 ## ML-163: Why are random feature subsets used?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** MEDIUM
 
 At each split, Random Forest considers only a **random subset of `m` features** (instead of all features). This is the key difference from plain bagging:
 
@@ -4722,10 +4722,10 @@ rf = RandomForestClassifier(
 
 ## ML-164: What are its disadvantages?
 
-**Domain:** Topic 25: Random Forest &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 23: Random Forest &nbsp;|&nbsp; **Priority:** LOWER
 
 **Concept Overview:**
-`What are its disadvantages` is an essential technical question in Topic 25: Random Forest.
+`What are its disadvantages` is an essential technical question in Topic 23: Random Forest.
 
 **Detailed Technical Breakdown:**
 - **Foundational Definition:** Serves as a primary building block within data science, statistical modeling, and applied AI workflows.
@@ -4748,7 +4748,7 @@ Explain both the theoretical foundation and practical trade-offs encountered whe
 
 ## ML-165: How does subsampling reduce overfitting?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 **Subsampling** injects randomness into the training process, similar to Random Forests:
 
@@ -4788,7 +4788,7 @@ model = xgb.XGBRegressor(
 
 ## ML-166: What are gamma, lambda, and alpha?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 | Parameter | Type | Effect | Default |
 |---|---|---|---|
@@ -4816,7 +4816,7 @@ model = xgb.XGBClassifier(reg_alpha=0.1)  # light L1
 
 ## ML-167: What are subsample and colsample_bytree?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 These are **stochastic regularization** parameters that introduce randomness into training:
 
@@ -4848,7 +4848,7 @@ model = xgb.XGBClassifier(colsample_bytree=0.8)  # use 80% of features
 
 ## ML-168: What is AdaBoost?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 **AdaBoost (Adaptive Boosting)** is an ensemble learning algorithm that combines multiple **weak learners** (typically decision stumps) into a single strong classifier.
 
@@ -4878,7 +4878,7 @@ model.fit(X_train, y_train)
 
 ## ML-169: What is Gradient Boosting?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 **Gradient Boosting** is an ensemble technique that builds models sequentially, where each new model is trained to **minimize the residual errors** (pseudo-residuals) of the previous ensemble using **gradient descent in function space**.
 
@@ -4911,7 +4911,7 @@ For t = 1 to T:
 
 ## ML-170: What is XGBoost feature importance?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 XGBoost provides **three types of feature importance**:
 
@@ -4943,7 +4943,7 @@ print(sorted(importance.items(), key=lambda x: x[1], reverse=True))
 
 ## ML-171: What is XGBoost?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 **XGBoost (Extreme Gradient Boosting)** is an optimized, scalable implementation of gradient boosting developed by Tianqi Chen. It is one of the most widely used ML algorithms in competitions and production.
 
@@ -4977,7 +4977,7 @@ model.fit(X_train, y_train)
 
 ## ML-172: What is a decision stump?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 A **decision stump** is a decision tree with **depth = 1** — it makes exactly **one split** on one feature.
 
@@ -5010,7 +5010,7 @@ stump.fit(X_train, y_train)
 
 ## ML-173: What is early stopping?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 **Early stopping** halts training when the validation metric stops improving for a set number of rounds, preventing overfitting:
 
@@ -5045,7 +5045,7 @@ print(f"Best score: {model.best_score}")
 
 ## ML-174: What is max_depth?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 `max_depth` controls the **maximum depth of each tree** in the ensemble.
 
@@ -5074,7 +5074,7 @@ for depth in [3, 4, 5, 6, 7]:
 
 ## ML-175: What is min_child_weight?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 `min_child_weight` is the **minimum sum of instance weights (Hessians)** required in a child node to make a split.
 
@@ -5101,7 +5101,7 @@ model = xgb.XGBClassifier(
 
 ## ML-176: What is shrinkage?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 **Shrinkage** (also called the **learning rate**) scales the contribution of each new tree:
 
@@ -5128,7 +5128,7 @@ model = GradientBoostingClassifier(learning_rate=0.05, n_estimators=500)
 
 ## ML-177: What is the difference between XGBoost and Random Forest?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 | Feature | XGBoost | Random Forest |
 |---|---|---|
@@ -5160,7 +5160,7 @@ xgb_model = xgb.XGBClassifier(n_estimators=100)
 
 ## ML-178: What is the learning-rate versus estimators tradeoff?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 There is a **fundamental tradeoff** between `learning_rate` and `n_estimators`:
 
@@ -5194,7 +5194,7 @@ model = GradientBoostingClassifier(
 
 ## ML-179: What is the role of gradients and Hessians?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** HIGH
 
 XGBoost uses a **second-order Taylor expansion** of the loss function to find optimal tree structures:
 
@@ -5224,7 +5224,7 @@ L ≈ Σ [gᵢ · f(xᵢ) + 0.5 · hᵢ · f(xᵢ)²] + Ω(f)
 
 ## ML-180: Can XGBoost model non-linear relationships?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Yes** — XGBoost is inherently non-linear because it uses **decision trees as base learners**:
 
@@ -5260,7 +5260,7 @@ plt.show()
 
 ## ML-181: How are sample weights updated?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 After each round, sample weights are updated using the formula:
 
@@ -5299,7 +5299,7 @@ weights /= weights.sum()  # normalize
 
 ## ML-182: How can boosting models be regularized?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Several techniques exist to regularize gradient boosting:
 
@@ -5329,7 +5329,7 @@ model = GradientBoostingClassifier(
 
 ## ML-183: How do you compare XGBoost with Random Forest for regression?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Aspect | XGBoost | Random Forest |
 |---|---|---|
@@ -5369,7 +5369,7 @@ print(f"XGBoost R²:       {xgb_r2:.4f}")
 
 ## ML-184: How do you evaluate an XGBoost Regressor?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 XGBoost regression models are evaluated using **standard regression metrics**:
 
@@ -5408,7 +5408,7 @@ model.fit(X_train, y_train, eval_set=[(X_val, y_val)])
 
 ## ML-185: How do you tune an XGBoost Regressor?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Recommended tuning sequence:**
 
@@ -5453,7 +5453,7 @@ print(search.best_params_)
 
 ## ML-186: How does AdaBoost train models sequentially?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 AdaBoost trains weak learners one after another, each focusing on the **mistakes of the previous one**:
 
@@ -5478,7 +5478,7 @@ Where `αₜ` is the weight of learner `t` and `hₜ(x)` is its prediction.
 
 ## ML-187: How does Gradient Boosting differ from AdaBoost?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Feature | AdaBoost | Gradient Boosting |
 |---|---|---|
@@ -5498,7 +5498,7 @@ Where `αₜ` is the weight of learner `t` and `hₜ(x)` is its prediction.
 
 ## ML-188: How does XGBoost differ from traditional Gradient Boosting?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Feature | Traditional GBM | XGBoost |
 |---|---|---|
@@ -5526,7 +5526,7 @@ model = xgb.train(params, dtrain, num_boost_round=100,
 
 ## ML-189: How does XGBoost handle missing values?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 XGBoost has a **built-in sparsity-aware split finding algorithm**:
 
@@ -5552,7 +5552,7 @@ model.fit(X_train, y_train)
 
 ## ML-190: How does early stopping work?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Early stopping monitors validation performance and **stops training when it stops improving**:
 
@@ -5590,7 +5590,7 @@ print(f"Best RMSE: {model.best_score:.4f}")
 
 ## ML-191: How does max_depth affect regression?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 `max_depth` controls the **complexity of each regression tree**:
 
@@ -5630,7 +5630,7 @@ plt.show()
 
 ## ML-192: How does scale_pos_weight handle class imbalance?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 `scale_pos_weight` balances positive and negative class weights for **imbalanced binary classification**:
 
@@ -5666,7 +5666,7 @@ model.fit(X_train, y_train)
 
 ## ML-193: What causes boosting to overfit?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Boosting can overfit due to several factors:
 
@@ -5701,7 +5701,7 @@ plt.show()
 
 ## ML-194: What objectives can XGBoost use for regression?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 XGBoost supports multiple **regression objectives**:
 
@@ -5739,7 +5739,7 @@ model.fit(X_train, y_train)
 
 ## ML-195: What regularization does XGBoost use?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 XGBoost adds a **regularization term** directly to the objective:
 
@@ -5772,7 +5772,7 @@ model = xgb.XGBClassifier(
 
 ## ML-196: Why are misclassified samples given more weight?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The philosophy is **"focus on your mistakes"**:
 
@@ -5790,7 +5790,7 @@ The philosophy is **"focus on your mistakes"**:
 
 ## ML-197: Why is AdaBoost sensitive to outliers?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 AdaBoost is **highly sensitive to outliers** because:
 
@@ -5814,7 +5814,7 @@ AdaBoost is **highly sensitive to outliers** because:
 
 ## ML-198: Why is XGBoost computationally efficient?
 
-**Domain:** Topic 26: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 24: Gradient Boosting, AdaBoost and XGBoost &nbsp;|&nbsp; **Priority:** MEDIUM
 
 XGBoost is optimized at multiple levels:
 
@@ -5846,7 +5846,7 @@ model = xgb.XGBClassifier(tree_method='hist')
 
 ## ML-199: What is DBSCAN?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** is a clustering algorithm that groups together points that are **closely packed** (high density regions) and marks as **outliers** points that lie in **low-density regions**.
 
@@ -5881,7 +5881,7 @@ print(f"Clusters: {n_clusters}, Noise points: {n_noise}")
 
 ## ML-200: What is Hierarchical Clustering?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Hierarchical Clustering** is an unsupervised algorithm that builds a **tree of nested clusters** (a hierarchy) without requiring K to be specified upfront.
 
@@ -5911,7 +5911,7 @@ labels = hc.fit_predict(X)
 
 ## ML-201: What is K-Means?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **K-Means++** is a smarter initialization strategy that spreads initial centroids far apart, dramatically reducing the chance of poor convergence.
 
@@ -5945,7 +5945,7 @@ kmeans_rand = KMeans(n_clusters=3, init='random', n_init=10)
 
 ## ML-202: What is Ward linkage?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Ward linkage** merges the pair of clusters that results in the **minimum increase in total within-cluster variance (WCSS)**:
 
@@ -5973,7 +5973,7 @@ hc = AgglomerativeClustering(n_clusters=3, linkage='ward')
 
 ## ML-203: What is a border point?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 A **border point** is a non-core point that falls within the neighborhood (ε) of a core point:
 
@@ -5996,7 +5996,7 @@ Border points are part of the cluster but **do not expand** it further.
 
 ## ML-204: What is a centroid?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 A **centroid** is the **mean position** (geometric center) of all data points in a cluster.
 
@@ -6032,7 +6032,7 @@ plt.show()
 
 ## ML-205: What is a core point?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 A **core point** is a point with **at least `min_samples` neighbors** (including itself) within radius `epsilon`:
 
@@ -6066,7 +6066,7 @@ Core points are the **seeds** from which clusters grow. All core points within �
 
 ## ML-206: What is a dendrogram?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 A **dendrogram** is a tree diagram that represents the **complete hierarchy** of cluster merges (agglomerative) or splits (divisive).
 
@@ -6104,7 +6104,7 @@ plt.show()
 
 ## ML-207: What is a k-distance plot?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 A **k-distance plot** (also called k-NN distance graph) plots the distance from each point to its **k-th nearest neighbor**, sorted in descending order.
 
@@ -6138,7 +6138,7 @@ This mimics the exact distance threshold used in DBSCAN's core point definition.
 
 ## ML-208: What is a noise point?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 A **noise point** (outlier) is a point that is:
 - **Not a core point** (too few neighbors within ε)
@@ -6174,7 +6174,7 @@ plt.show()
 
 ## ML-209: What is agglomerative clustering?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Agglomerative clustering** is a **bottom-up** hierarchical approach:
 
@@ -6211,7 +6211,7 @@ plt.show()
 
 ## ML-210: What is average linkage?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Average linkage** defines cluster distance as the **mean distance** between all pairs of points, one from each cluster:
 
@@ -6242,7 +6242,7 @@ hc = AgglomerativeClustering(n_clusters=3, linkage='average')
 
 ## ML-211: What is complete linkage?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Complete linkage** (furthest neighbor) defines the distance between clusters as the **maximum distance** between any pair of points:
 
@@ -6270,7 +6270,7 @@ hc = AgglomerativeClustering(n_clusters=3, linkage='complete')
 
 ## ML-212: What is divisive clustering?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Divisive clustering** is a **top-down** hierarchical approach:
 
@@ -6297,7 +6297,7 @@ hc = AgglomerativeClustering(n_clusters=3, linkage='complete')
 
 ## ML-213: What is inertia?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Inertia** is the **sum of squared distances** of each sample to its closest centroid — the value K-Means minimizes:
 
@@ -6325,7 +6325,7 @@ print(f"Inertia: {kmeans.inertia_:.2f}")
 
 ## ML-214: What is single linkage?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 **Single linkage** (nearest neighbor) defines the distance between two clusters as the **minimum distance** between any pair of points, one from each cluster:
 
@@ -6354,7 +6354,7 @@ Single linkage merges A and B early due to the outlier bridge
 
 ## ML-215: What is the Silhouette Score?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 The **Silhouette Score** is a metric for evaluating the quality of clustering without ground truth labels. It measures how **similar a point is to its own cluster** compared to **other clusters**.
 
@@ -6387,7 +6387,7 @@ sample_scores = silhouette_samples(X, kmeans.labels_)
 
 ## ML-216: What is the elbow method?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 The **Elbow Method** plots **inertia vs K** and selects the K where the rate of decrease **sharply slows** (forming an "elbow"):
 
@@ -6430,7 +6430,7 @@ plt.show()
 
 ## ML-217: What is the range of the score?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** HIGH
 
 The Silhouette Score ranges from **-1 to +1**:
 
@@ -6458,7 +6458,7 @@ s(i) = (b(i) - a(i)) / max(a(i), b(i))
 
 ## ML-218: How can PCA help clustering?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Benefits of applying PCA before clustering:**
 1. **Reduces dimensionality** → fewer dimensions = faster clustering
@@ -6495,7 +6495,7 @@ plt.show()
 
 ## ML-219: How do outliers affect K-Means?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 K-Means is **highly sensitive to outliers** because:
 
@@ -6525,7 +6525,7 @@ km = KMeans(n_clusters=3).fit(X_with_outlier)
 
 ## ML-220: How do you choose between K-Means and DBSCAN?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Factor | K-Means | DBSCAN |
 |--------|---------|--------|
@@ -6547,7 +6547,7 @@ km = KMeans(n_clusters=3).fit(X_with_outlier)
 
 ## ML-221: How do you choose clusters from a dendrogram?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 Three main approaches to extract a flat clustering from a dendrogram:
 
@@ -6586,7 +6586,7 @@ print(f"Suggested K: {len(np.unique(labels))}")
 
 ## ML-222: How do you choose epsilon?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The most principled method is the **k-distance plot**:
 
@@ -6625,7 +6625,7 @@ plt.show()
 
 ## ML-223: How do you evaluate whether clusters are useful?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Internal metrics (no ground truth needed):**
 
@@ -6656,7 +6656,7 @@ print("Calinski-Harabasz:", calinski_harabasz_score(X, labels))
 
 ## ML-224: How do you explain clusters to stakeholders?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **1. Profile each cluster with descriptive statistics:**
 ```python
@@ -6689,10 +6689,10 @@ import seaborn as sns
 
 ## ML-225: How do you handle categorical variables?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Concept Overview:**
-`How do you handle categorical variables` is an essential technical question in Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN.
+`How do you handle categorical variables` is an essential technical question in Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN.
 
 **Detailed Technical Breakdown:**
 - **Foundational Definition:** Serves as a primary building block within data science, statistical modeling, and applied AI workflows.
@@ -6715,7 +6715,7 @@ Explain both the theoretical foundation and practical trade-offs encountered whe
 
 ## ML-226: How do you handle outliers before clustering?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Why it matters:** K-Means centroids are pulled toward outliers; outliers can form their own spurious clusters.
 
@@ -6754,7 +6754,7 @@ X_winsorized = winsorize(X_scaled, limits=[0.01, 0.01], axis=0)
 
 ## ML-227: How does DBSCAN discover clusters?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 DBSCAN uses the concept of **density-reachability** to grow clusters:
 
@@ -6790,7 +6790,7 @@ For each unvisited point p:
 
 ## ML-228: How does DBSCAN handle outliers?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 DBSCAN handles outliers **natively and automatically**:
 
@@ -6829,7 +6829,7 @@ outlier_mask = labels == -1
 
 ## ML-229: How does K-Means work step by step?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 K-Means uses an **iterative EM-like algorithm**:
 
@@ -6872,7 +6872,7 @@ def kmeans_manual(X, K, max_iter=100):
 
 ## ML-230: How is it used to choose K?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The Silhouette Score is an excellent tool for selecting the optimal K:
 
@@ -6914,7 +6914,7 @@ plt.show()
 
 ## ML-231: How would you cluster customers for segmentation?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 ```python
 from sklearn.cluster import KMeans
@@ -6948,7 +6948,7 @@ Common customer segments found: High-value loyalists, Bargain hunters, Occasiona
 
 ## ML-232: How would you preprocess customer data for clustering?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Step-by-step preprocessing pipeline:**
 
@@ -6995,7 +6995,7 @@ Key steps:
 
 ## ML-233: What assumptions does K-Means make?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 K-Means implicitly assumes:
 
@@ -7017,7 +7017,7 @@ K-Means implicitly assumes:
 
 ## ML-234: What do epsilon and min_samples represent?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 These two parameters define what "dense enough" means:
 
@@ -7048,7 +7048,7 @@ dbscan_loose = DBSCAN(eps=1.0, min_samples=3)
 
 ## ML-235: What does a high score indicate?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 | Score Range | Interpretation |
 |---|---|
@@ -7092,7 +7092,7 @@ plt.show()
 
 ## ML-236: What does a negative score indicate?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 A **negative Silhouette Score** for a point means it is **closer to points in another cluster** than to points in its own assigned cluster — it is **likely misclassified**.
 
@@ -7122,7 +7122,7 @@ print(X[misclassified[:5]])
 
 ## ML-237: What objective function does K-Means minimize?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 K-Means minimizes the **Within-Cluster Sum of Squares (WCSS)**, also called **inertia**:
 
@@ -7147,7 +7147,7 @@ This is equivalent to maximizing **inter-cluster distance** while minimizing **i
 
 ## ML-238: Why can DBSCAN find arbitrary shapes?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 DBSCAN discovers clusters by **following the density** of points, not by fitting geometric shapes:
 
@@ -7178,7 +7178,7 @@ for name, data in [('Moons', X_moons), ('Circles', X_circles)]:
 
 ## ML-239: Why can K-Means converge to a local optimum?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The K-Means objective (WCSS) is **non-convex** — it has multiple local minima:
 
@@ -7205,7 +7205,7 @@ kmeans = KMeans(n_clusters=3, init='k-means++', n_init=10)
 
 ## ML-240: Why does DBSCAN struggle with varying density?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** MEDIUM
 
 DBSCAN uses **global** ε and `min_samples` parameters, which define a single density threshold:
 
@@ -7248,7 +7248,7 @@ labels = clusterer.fit_predict(X)
 
 ## ML-241: What are Hierarchical Clustering limitations?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** LOWER
 
 | Limitation | Details |
 |---|---|
@@ -7280,7 +7280,7 @@ mb_kmeans.fit(X)
 
 ## ML-242: What are K-Means limitations?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** LOWER
 
 | Limitation | Explanation |
 |---|---|
@@ -7313,7 +7313,7 @@ from sklearn_extra.cluster import KMedoids
 
 ## ML-243: What are its limitations?
 
-**Domain:** Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** LOWER
+**Domain:** Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN &nbsp;|&nbsp; **Priority:** LOWER
 
 | Limitation | Explanation |
 |---|---|
@@ -7345,7 +7345,7 @@ print(f"Calinski-Harabasz: {ch_score:.4f}")
 
 ## ML-244: How do learning curves diagnose bias and variance?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
 
 **Learning curves** plot training and validation error as a function of training set size — they reveal whether a model suffers from bias, variance, or both.
 
@@ -7397,7 +7397,7 @@ High Bias (Underfitting):          High Variance (Overfitting):
 
 ## ML-245: What is bias?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
 
 **Bias** is the error introduced by approximating a real-world problem (which may be complex) with a simplified model.
 
@@ -7421,7 +7421,7 @@ model = LinearRegression()  # too simple for a non-linear problem
 
 ## ML-246: What is high bias?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
 
 **High bias** occurs when a model is **too simple** to capture the underlying patterns in the data.
 
@@ -7448,7 +7448,7 @@ model = LinearRegression()  # too simple for a non-linear problem
 
 ## ML-247: What is high variance?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
 
 **High variance** occurs when a model is **too complex** and memorizes the training data, including noise.
 
@@ -7475,7 +7475,7 @@ model = LinearRegression()  # too simple for a non-linear problem
 
 ## ML-248: What is the bias-variance tradeoff?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
 
 The **bias-variance tradeoff** is the fundamental tension in machine learning between a model being too simple (high bias) and too complex (high variance).
 
@@ -7511,7 +7511,7 @@ Error
 
 ## ML-249: What is variance?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** HIGH
 
 **Variance** is the model's sensitivity to small fluctuations in the training data.
 
@@ -7534,7 +7534,7 @@ model = DecisionTreeClassifier(max_depth=None)  # high variance — no pruning
 
 ## ML-250: How can you reduce high bias?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
 
 High bias = model too simple → **increase model complexity**.
 
@@ -7564,7 +7564,7 @@ model.fit(X_train, y_train)
 
 ## ML-251: How can you reduce high variance?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
 
 High variance = model too complex → **constrain or regularize the model**.
 
@@ -7593,7 +7593,7 @@ model.fit(X_train, y_train)
 
 ## ML-252: How does bagging affect variance?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Bagging** (Bootstrap Aggregating) directly **reduces variance** with minimal impact on bias.
 
@@ -7629,7 +7629,7 @@ model.fit(X_train, y_train)
 
 ## ML-253: How does boosting affect bias?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Boosting** primarily **reduces bias** by sequentially fitting models to correct the errors of previous ones.
 
@@ -7668,7 +7668,7 @@ gb.fit(X_train, y_train)
 
 ## ML-254: How does regularization affect it?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
 
 **Regularization** adds a penalty to the loss function to constrain model complexity, directly managing the bias-variance tradeoff.
 
@@ -7709,7 +7709,7 @@ model = Lasso(alpha=0.1)  # also performs feature selection → reduces variance
 
 ## ML-255: Why does the tradeoff occur?
 
-**Domain:** Topic 29: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
+**Domain:** Topic 26: Bias-Variance Tradeoff and Generalization &nbsp;|&nbsp; **Priority:** MEDIUM
 
 The tradeoff occurs because of the **competing demands** of fitting training data vs. generalizing to new data.
 

@@ -27,7 +27,7 @@
 
 ### PART I — DATA SCIENCE FOUNDATIONS (212 Questions)
 
-#### Topic 2: Statistics and Descriptive Statistics (71 Questions)
+#### Topic 1: Statistics and Descriptive Statistics (71 Questions)
 
 - **`STAT-001`** [What are independent events?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-001-what-are-independent-events) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-001-what-are-independent-events)
 - **`STAT-002`** [What are mutually exclusive events?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-002-what-are-mutually-exclusive-events) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-002-what-are-mutually-exclusive-events)
@@ -101,7 +101,7 @@
 - **`STAT-070`** [What is harmonic mean?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-070-what-is-harmonic-mean) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-070-what-is-harmonic-mean)
 - **`STAT-071`** [What is the Wilcoxon signed-rank test?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-071-what-is-the-wilcoxon-signed-rank-test) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-071-what-is-the-wilcoxon-signed-rank-test)
 
-#### Topic 3: Probability and Probability Distributions (17 Questions)
+#### Topic 2: Probability and Probability Distributions (17 Questions)
 
 - **`STAT-072`** [What are mean and variance of a Normal distribution?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-072-what-are-mean-and-variance-of-a-normal-distribution) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-072-what-are-mean-and-variance-of-a-normal-distribution)
 - **`STAT-073`** [What is a Bernoulli distribution?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-073-what-is-a-bernoulli-distribution) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-073-what-is-a-bernoulli-distribution)
@@ -121,7 +121,7 @@
 - **`STAT-087`** [What is sampling distribution?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-087-what-is-sampling-distribution) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-087-what-is-sampling-distribution)
 - **`STAT-088`** [What is the standard Normal distribution?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-088-what-is-the-standard-normal-distribution) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-088-what-is-the-standard-normal-distribution)
 
-#### Topic 4: Hypothesis Testing and Statistical Inference (20 Questions)
+#### Topic 3: Hypothesis Testing and Statistical Inference (20 Questions)
 
 - **`STAT-089`** [What is ANOVA?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-089-what-is-anova) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-089-what-is-anova)
 - **`STAT-090`** [What is a Type I error?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-090-what-is-a-type-i-error) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-090-what-is-a-type-i-error)
@@ -144,7 +144,7 @@
 - **`STAT-107`** [When do you use a Z-test?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-107-when-do-you-use-a-z-test) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-107-when-do-you-use-a-z-test)
 - **`STAT-108`** [When should ANOVA be used?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-108-when-should-anova-be-used) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#stat-108-when-should-anova-be-used)
 
-#### Topic 6: Exploratory Data Analysis (EDA) (44 Questions)
+#### Topic 4: Exploratory Data Analysis (EDA) (44 Questions)
 
 - **`EDA-001`** [How do you detect data leakage during EDA?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-001-how-do-you-detect-data-leakage-during-eda) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-001-how-do-you-detect-data-leakage-during-eda)
 - **`EDA-002`** [What are the first steps when receiving a new dataset?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-002-what-are-the-first-steps-when-receiving-a-new-dataset) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-002-what-are-the-first-steps-when-receiving-a-new-dataset)
@@ -191,7 +191,7 @@
 - **`EDA-043`** [Why is EDA important before modeling?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-043-why-is-eda-important-before-modeling) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-043-why-is-eda-important-before-modeling)
 - **`EDA-044`** [What are limitations of a correlation matrix?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-044-what-are-limitations-of-a-correlation-matrix) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#eda-044-what-are-limitations-of-a-correlation-matrix)
 
-#### Topic 7: Feature Engineering and Feature Selection (49 Questions)
+#### Topic 5: Feature Engineering and Feature Selection (49 Questions)
 
 - **`FE-001`** [What are MCAR, MAR, and MNAR?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-001-what-are-mcar-mar-and-mnar) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-001-what-are-mcar-mar-and-mnar)
 - **`FE-002`** [What are domain-specific features?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-002-what-are-domain-specific-features) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-002-what-are-domain-specific-features)
@@ -243,7 +243,7 @@
 - **`FE-048`** [What is Box-Cox transformation?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-048-what-is-box-cox-transformation) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-048-what-is-box-cox-transformation)
 - **`FE-049`** [What is Yeo-Johnson transformation?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-049-what-is-yeo-johnson-transformation) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-049-what-is-yeo-johnson-transformation)
 
-#### Topic 8: Data Preprocessing and Data Leakage (11 Questions)
+#### Topic 6: Data Preprocessing and Data Leakage (11 Questions)
 
 - **`FE-050`** [What are missingness indicators?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-050-what-are-missingness-indicators) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-050-what-are-missingness-indicators)
 - **`FE-051`** [What is KNN imputation?](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-051-what-is-knn-imputation) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md#fe-051-what-is-knn-imputation)
@@ -259,7 +259,7 @@
 
 ### PART II — SQL, PYTHON AND DATA ANALYSIS (301 Questions)
 
-#### Topic 9: SQL Fundamentals and Database Concepts (115 Questions)
+#### Topic 7: SQL Fundamentals and Database Concepts (115 Questions)
 
 - **`SQL-001`** [What are ACID properties?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-001-what-are-acid-properties) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-001-what-are-acid-properties)
 - **`SQL-002`** [What are SQL string functions?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-002-what-are-sql-string-functions) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-002-what-are-sql-string-functions)
@@ -377,7 +377,7 @@
 - **`SQL-114`** [When can indexes hurt performance?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-114-when-can-indexes-hurt-performance) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-114-when-can-indexes-hurt-performance)
 - **`SQL-115`** [Why should SELECT * be avoided in large queries?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-115-why-should-select-be-avoided-in-large-queries) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-115-why-should-select-be-avoided-in-large-queries)
 
-#### Topic 10: SQL Joins, Subqueries and Set Operations (19 Questions)
+#### Topic 8: SQL Joins, Subqueries and Set Operations (19 Questions)
 
 - **`SQL-116`** [What is CROSS JOIN?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-116-what-is-cross-join) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-116-what-is-cross-join)
 - **`SQL-117`** [What is EXCEPT or MINUS?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-117-what-is-except-or-minus) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-117-what-is-except-or-minus)
@@ -399,7 +399,7 @@
 - **`SQL-133`** [How would you optimize a query joining very large tables?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-133-how-would-you-optimize-a-query-joining-very-large-tables) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-133-how-would-you-optimize-a-query-joining-very-large-tables)
 - **`SQL-134`** [What happens when JOIN keys contain duplicates?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-134-what-happens-when-join-keys-contain-duplicates) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-134-what-happens-when-join-keys-contain-duplicates)
 
-#### Topic 11: SQL Aggregations, CTEs and Window Functions (17 Questions)
+#### Topic 9: SQL Aggregations, CTEs and Window Functions (17 Questions)
 
 - **`SQL-135`** [How do CTEs affect readability and performance?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-135-how-do-ctes-affect-readability-and-performance) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-135-how-do-ctes-affect-readability-and-performance)
 - **`SQL-136`** [How do window functions differ from GROUP BY?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-136-how-do-window-functions-differ-from-group-by) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-136-how-do-window-functions-differ-from-group-by)
@@ -419,7 +419,7 @@
 - **`SQL-150`** [How do you find customers with no orders?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-150-how-do-you-find-customers-with-no-orders) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-150-how-do-you-find-customers-with-no-orders)
 - **`SQL-151`** [How do you use CASE WHEN with aggregation?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-151-how-do-you-use-case-when-with-aggregation) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-151-how-do-you-use-case-when-with-aggregation)
 
-#### Topic 12: Advanced SQL and Business Analytics Problems (7 Questions)
+#### Topic 10: Advanced SQL and Business Analytics Problems (7 Questions)
 
 - **`SQL-152`** [How do you build a cohort retention table?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-152-how-do-you-build-a-cohort-retention-table) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-152-how-do-you-build-a-cohort-retention-table)
 - **`SQL-153`** [How do you calculate DAU, WAU, and MAU?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-153-how-do-you-calculate-dau-wau-and-mau) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-153-how-do-you-calculate-dau-wau-and-mau)
@@ -429,7 +429,7 @@
 - **`SQL-157`** [How do you write a funnel analysis query?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-157-how-do-you-write-a-funnel-analysis-query) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-157-how-do-you-write-a-funnel-analysis-query)
 - **`SQL-158`** [How would you design SQL for a business KPI dashboard?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-158-how-would-you-design-sql-for-a-business-kpi-dashboard) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#sql-158-how-would-you-design-sql-for-a-business-kpi-dashboard)
 
-#### Topic 13: Python Fundamentals and Data Structures (58 Questions)
+#### Topic 11: Python Fundamentals and Data Structures (58 Questions)
 
 - **`PY-001`** [What are *args and **kwargs?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-001-what-are-args-and-kwargs) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-001-what-are-args-and-kwargs)
 - **`PY-002`** [What are Python's main built-in data types?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-002-what-are-pythons-main-built-in-data-types) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-002-what-are-pythons-main-built-in-data-types)
@@ -490,7 +490,7 @@
 - **`PY-057`** [How do you write efficient Python code?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-057-how-do-you-write-efficient-python-code) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-057-how-do-you-write-efficient-python-code)
 - **`PY-058`** [How would you optimize a slow Python data pipeline?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-058-how-would-you-optimize-a-slow-python-data-pipeline) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-058-how-would-you-optimize-a-slow-python-data-pipeline)
 
-#### Topic 14: Python OOP, Iterators, Generators and Decorators (12 Questions)
+#### Topic 12: Python OOP, Iterators, Generators and Decorators (12 Questions)
 
 - **`PY-059`** [What is a class method?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-059-what-is-a-class-method) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-059-what-is-a-class-method)
 - **`PY-060`** [What is a class?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-060-what-is-a-class) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-060-what-is-a-class)
@@ -505,7 +505,7 @@
 - **`PY-069`** [Which Python objects are mutable?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-069-which-python-objects-are-mutable) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-069-which-python-objects-are-mutable)
 - **`PY-070`** [Why is NumPy faster than Python loops?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-070-why-is-numpy-faster-than-python-loops) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-070-why-is-numpy-faster-than-python-loops)
 
-#### Topic 15: Python Performance, Concurrency and Memory (8 Questions)
+#### Topic 13: Python Performance, Concurrency and Memory (8 Questions)
 
 - **`PY-071`** [What is Big-O notation?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-071-what-is-big-o-notation) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-071-what-is-big-o-notation)
 - **`PY-072`** [What is Python garbage collection?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-072-what-is-python-garbage-collection) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-072-what-is-python-garbage-collection)
@@ -516,7 +516,7 @@
 - **`PY-077`** [When is multiprocessing preferred?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-077-when-is-multiprocessing-preferred) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-077-when-is-multiprocessing-preferred)
 - **`PY-078`** [How do you handle memory limitations in Python?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-078-how-do-you-handle-memory-limitations-in-python) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-078-how-do-you-handle-memory-limitations-in-python)
 
-#### Topic 16: NumPy and Vectorized Computation (5 Questions)
+#### Topic 14: NumPy and Vectorized Computation (5 Questions)
 
 - **`PY-079`** [What is NumPy axis?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-079-what-is-numpy-axis) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-079-what-is-numpy-axis)
 - **`PY-080`** [What is NumPy?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-080-what-is-numpy) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-080-what-is-numpy)
@@ -524,7 +524,7 @@
 - **`PY-082`** [What is vectorization?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-082-what-is-vectorization) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-082-what-is-vectorization)
 - **`PY-083`** [How would you explain vectorization to an interviewer?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-083-how-would-you-explain-vectorization-to-an-interviewer) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#py-083-how-would-you-explain-vectorization-to-an-interviewer)
 
-#### Topic 17: Pandas and Data Manipulation (57 Questions)
+#### Topic 15: Pandas and Data Manipulation (57 Questions)
 
 - **`PD-001`** [What are categorical dtypes?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-001-what-are-categorical-dtypes) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-001-what-are-categorical-dtypes)
 - **`PD-002`** [What are inner, left, right, and outer merges?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-002-what-are-inner-left-right-and-outer-merges) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-002-what-are-inner-left-right-and-outer-merges)
@@ -584,7 +584,7 @@
 - **`PD-056`** [When should you use NumPy instead of Pandas?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-056-when-should-you-use-numpy-instead-of-pandas) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-056-when-should-you-use-numpy-instead-of-pandas)
 - **`PD-057`** [Why is iterrows slow?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-057-why-is-iterrows-slow) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-057-why-is-iterrows-slow)
 
-#### Topic 18: Data Cleaning and Analytical Pipelines (3 Questions)
+#### Topic 16: Data Cleaning and Analytical Pipelines (3 Questions)
 
 - **`PD-058`** [How do you detect duplicates?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-058-how-do-you-detect-duplicates) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-058-how-do-you-detect-duplicates)
 - **`PD-059`** [How would you debug a slow Pandas pipeline?](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-059-how-would-you-debug-a-slow-pandas-pipeline) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md#pd-059-how-would-you-debug-a-slow-pandas-pipeline)
@@ -592,7 +592,7 @@
 
 ### PART III — MACHINE LEARNING (255 Questions)
 
-#### Topic 19: Supervised and Unsupervised Learning (31 Questions)
+#### Topic 17: Supervised and Unsupervised Learning (31 Questions)
 
 - **`ML-001`** [How do pipelines prevent data leakage?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-001-how-do-pipelines-prevent-data-leakage) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-001-how-do-pipelines-prevent-data-leakage)
 - **`ML-002`** [How does cross-validation work for regression?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-002-how-does-cross-validation-work-for-regression) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-002-how-does-cross-validation-work-for-regression)
@@ -626,7 +626,7 @@
 - **`ML-030`** [In a real-world project, how would you explain this concept to a non-technical stakeholder?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-030-in-a-real-world-project-how-would-you-explain-this-concept-to-a-non-technical-stakeholder) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-030-in-a-real-world-project-how-would-you-explain-this-concept-to-a-non-technical-stakeholder)
 - **`ML-031`** [What is MAPE and what are its limitations?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-031-what-is-mape-and-what-are-its-limitations) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-031-what-is-mape-and-what-are-its-limitations)
 
-#### Topic 20: Linear and Logistic Regression (35 Questions)
+#### Topic 18: Linear and Logistic Regression (35 Questions)
 
 - **`ML-032`** [How can multicollinearity be detected?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-032-how-can-multicollinearity-be-detected) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-032-how-can-multicollinearity-be-detected)
 - **`ML-033`** [What are odds and log-odds?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-033-what-are-odds-and-log-odds) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-033-what-are-odds-and-log-odds)
@@ -664,7 +664,7 @@
 - **`ML-065`** [Why are squared errors used?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-065-why-are-squared-errors-used) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-065-why-are-squared-errors-used)
 - **`ML-066`** [Why is Logistic Regression used for classification?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-066-why-is-logistic-regression-used-for-classification) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-066-why-is-logistic-regression-used-for-classification)
 
-#### Topic 21: Regularization: Ridge, Lasso and Elastic Net (24 Questions)
+#### Topic 19: Regularization: Ridge, Lasso and Elastic Net (24 Questions)
 
 - **`ML-067`** [How do you interpret features selected by Lasso?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-067-how-do-you-interpret-features-selected-by-lasso) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-067-how-do-you-interpret-features-selected-by-lasso)
 - **`ML-068`** [How does regularization affect bias and variance?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-068-how-does-regularization-affect-bias-and-variance) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-068-how-does-regularization-affect-bias-and-variance)
@@ -691,7 +691,7 @@
 - **`ML-089`** [Why is regularization needed?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-089-why-is-regularization-needed) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-089-why-is-regularization-needed)
 - **`ML-090`** [Why should scaling be inside a pipeline?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-090-why-should-scaling-be-inside-a-pipeline) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-090-why-should-scaling-be-inside-a-pipeline)
 
-#### Topic 22: Naive Bayes and K-Nearest Neighbors (25 Questions)
+#### Topic 20: Naive Bayes and K-Nearest Neighbors (25 Questions)
 
 - **`ML-091`** [What are prior, likelihood, and posterior probabilities?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-091-what-are-prior-likelihood-and-posterior-probabilities) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-091-what-are-prior-likelihood-and-posterior-probabilities)
 - **`ML-092`** [What is Bayes theorem?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-092-what-is-bayes-theorem) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-092-what-is-bayes-theorem)
@@ -719,7 +719,7 @@
 - **`ML-114`** [What are KNN's computational limitations?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-114-what-are-knns-computational-limitations) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-114-what-are-knns-computational-limitations)
 - **`ML-115`** [What are Naive Bayes limitations?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-115-what-are-naive-bayes-limitations) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-115-what-are-naive-bayes-limitations)
 
-#### Topic 23: Decision Trees (22 Questions)
+#### Topic 21: Decision Trees (22 Questions)
 
 - **`ML-116`** [What are Decision Tree advantages?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-116-what-are-decision-tree-advantages) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-116-what-are-decision-tree-advantages)
 - **`ML-117`** [What are pre-pruning and post-pruning?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-117-what-are-pre-pruning-and-post-pruning) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-117-what-are-pre-pruning-and-post-pruning)
@@ -744,7 +744,7 @@
 - **`ML-136`** [Why do Regression Trees produce piecewise constant predictions?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-136-why-do-regression-trees-produce-piecewise-constant-predictions) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-136-why-do-regression-trees-produce-piecewise-constant-predictions)
 - **`ML-137`** [What are Decision Tree disadvantages?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-137-what-are-decision-tree-disadvantages) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-137-what-are-decision-tree-disadvantages)
 
-#### Topic 24: Ensemble Learning, Bagging and Boosting (14 Questions)
+#### Topic 22: Ensemble Learning, Bagging and Boosting (14 Questions)
 
 - **`ML-138`** [What is a strong learner?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-138-what-is-a-strong-learner) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-138-what-is-a-strong-learner)
 - **`ML-139`** [What is a weak learner?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-139-what-is-a-weak-learner) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-139-what-is-a-weak-learner)
@@ -761,7 +761,7 @@
 - **`ML-150`** [Why can boosting be sensitive to noisy data?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-150-why-can-boosting-be-sensitive-to-noisy-data) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-150-why-can-boosting-be-sensitive-to-noisy-data)
 - **`ML-151`** [Why can combining models improve performance?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-151-why-can-combining-models-improve-performance) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-151-why-can-combining-models-improve-performance)
 
-#### Topic 25: Random Forest (13 Questions)
+#### Topic 23: Random Forest (13 Questions)
 
 - **`ML-152`** [What are its advantages?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-152-what-are-its-advantages) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-152-what-are-its-advantages)
 - **`ML-153`** [What is a Random Forest?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-153-what-is-a-random-forest) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-153-what-is-a-random-forest)
@@ -777,7 +777,7 @@
 - **`ML-163`** [Why are random feature subsets used?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-163-why-are-random-feature-subsets-used) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-163-why-are-random-feature-subsets-used)
 - **`ML-164`** [What are its disadvantages?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-164-what-are-its-disadvantages) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-164-what-are-its-disadvantages)
 
-#### Topic 26: Gradient Boosting, AdaBoost and XGBoost (34 Questions)
+#### Topic 24: Gradient Boosting, AdaBoost and XGBoost (34 Questions)
 
 - **`ML-165`** [How does subsampling reduce overfitting?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-165-how-does-subsampling-reduce-overfitting) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-165-how-does-subsampling-reduce-overfitting)
 - **`ML-166`** [What are gamma, lambda, and alpha?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-166-what-are-gamma-lambda-and-alpha) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-166-what-are-gamma-lambda-and-alpha)
@@ -814,7 +814,7 @@
 - **`ML-197`** [Why is AdaBoost sensitive to outliers?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-197-why-is-adaboost-sensitive-to-outliers) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-197-why-is-adaboost-sensitive-to-outliers)
 - **`ML-198`** [Why is XGBoost computationally efficient?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-198-why-is-xgboost-computationally-efficient) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-198-why-is-xgboost-computationally-efficient)
 
-#### Topic 27: Clustering: K-Means, Hierarchical Clustering and DBSCAN (45 Questions)
+#### Topic 25: Clustering: K-Means, Hierarchical Clustering and DBSCAN (45 Questions)
 
 - **`ML-199`** [What is DBSCAN?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-199-what-is-dbscan) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-199-what-is-dbscan)
 - **`ML-200`** [What is Hierarchical Clustering?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-200-what-is-hierarchical-clustering) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-200-what-is-hierarchical-clustering)
@@ -862,7 +862,7 @@
 - **`ML-242`** [What are K-Means limitations?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-242-what-are-k-means-limitations) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-242-what-are-k-means-limitations)
 - **`ML-243`** [What are its limitations?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-243-what-are-its-limitations) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-243-what-are-its-limitations)
 
-#### Topic 29: Bias-Variance Tradeoff and Generalization (12 Questions)
+#### Topic 26: Bias-Variance Tradeoff and Generalization (12 Questions)
 
 - **`ML-244`** [How do learning curves diagnose bias and variance?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-244-how-do-learning-curves-diagnose-bias-and-variance) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-244-how-do-learning-curves-diagnose-bias-and-variance)
 - **`ML-245`** [What is bias?](./pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-245-what-is-bias) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md#ml-245-what-is-bias)
@@ -879,7 +879,7 @@
 
 ### PART IV — MODEL EVALUATION AND PRODUCTION ML (62 Questions)
 
-#### Topic 31: Classification Metrics and Confusion Matrix (33 Questions)
+#### Topic 27: Classification Metrics and Confusion Matrix (33 Questions)
 
 - **`MLE-001`** [How do you detect overfitting from training and validation metrics?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-001-how-do-you-detect-overfitting-from-training-and-validation-metrics) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-001-how-do-you-detect-overfitting-from-training-and-validation-metrics)
 - **`MLE-002`** [How do you detect underfitting?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-002-how-do-you-detect-underfitting) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-002-how-do-you-detect-underfitting)
@@ -915,12 +915,12 @@
 - **`MLE-032`** [When can accuracy be misleading?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-032-when-can-accuracy-be-misleading) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-032-when-can-accuracy-be-misleading)
 - **`MLE-033`** [Why should models be compared using the same validation strategy?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-033-why-should-models-be-compared-using-the-same-validation-strategy) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-033-why-should-models-be-compared-using-the-same-validation-strategy)
 
-#### Topic 32: Regression Metrics (2 Questions)
+#### Topic 28: Regression Metrics (2 Questions)
 
 - **`MLE-034`** [What is MAPE?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-034-what-is-mape) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-034-what-is-mape)
 - **`MLE-035`** [What are limitations of MAPE?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-035-what-are-limitations-of-mape) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-035-what-are-limitations-of-mape)
 
-#### Topic 33: ROC-AUC, PR-AUC and Threshold Optimization (8 Questions)
+#### Topic 29: ROC-AUC, PR-AUC and Threshold Optimization (8 Questions)
 
 - **`MLE-036`** [How does threshold selection affect precision and recall?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-036-how-does-threshold-selection-affect-precision-and-recall) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-036-how-does-threshold-selection-affect-precision-and-recall)
 - **`MLE-037`** [What is AUC-ROC?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-037-what-is-auc-roc) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-037-what-is-auc-roc)
@@ -931,12 +931,12 @@
 - **`MLE-042`** [What does an AUC of 0.5 mean?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-042-what-does-an-auc-of-05-mean) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-042-what-does-an-auc-of-05-mean)
 - **`MLE-043`** [When is a Precision-Recall curve preferred over ROC?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-043-when-is-a-precision-recall-curve-preferred-over-roc) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-043-when-is-a-precision-recall-curve-preferred-over-roc)
 
-#### Topic 34: Imbalanced Classification (2 Questions)
+#### Topic 30: Imbalanced Classification (2 Questions)
 
 - **`MLE-044`** [What is F-beta score?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-044-what-is-f-beta-score) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-044-what-is-f-beta-score)
 - **`MLE-045`** [How do you evaluate an imbalanced classification problem?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-045-how-do-you-evaluate-an-imbalanced-classification-problem) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-045-how-do-you-evaluate-an-imbalanced-classification-problem)
 
-#### Topic 35: Cross-Validation and Hyperparameter Tuning (11 Questions)
+#### Topic 31: Cross-Validation and Hyperparameter Tuning (11 Questions)
 
 - **`MLE-046`** [What is Bayesian optimization for hyperparameters?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-046-what-is-bayesian-optimization-for-hyperparameters) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-046-what-is-bayesian-optimization-for-hyperparameters)
 - **`MLE-047`** [What is Grid Search?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-047-what-is-grid-search) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-047-what-is-grid-search)
@@ -950,21 +950,21 @@
 - **`MLE-055`** [What is nested cross-validation?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-055-what-is-nested-cross-validation) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-055-what-is-nested-cross-validation)
 - **`MLE-056`** [Why should the test set not be used for hyperparameter tuning?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-056-why-should-the-test-set-not-be-used-for-hyperparameter-tuning) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-056-why-should-the-test-set-not-be-used-for-hyperparameter-tuning)
 
-#### Topic 36: Calibration, Robustness and Model Selection (4 Questions)
+#### Topic 32: Calibration, Robustness and Model Selection (4 Questions)
 
 - **`MLE-057`** [What is a calibration curve?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-057-what-is-a-calibration-curve) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-057-what-is-a-calibration-curve)
 - **`MLE-058`** [What is calibration?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-058-what-is-calibration) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-058-what-is-calibration)
 - **`MLE-059`** [What is model selection?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-059-what-is-model-selection) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-059-what-is-model-selection)
 - **`MLE-060`** [What is Brier score?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-060-what-is-brier-score) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-060-what-is-brier-score)
 
-#### Topic 37: ML Pipelines and Data Leakage Prevention (2 Questions)
+#### Topic 33: ML Pipelines and Data Leakage Prevention (2 Questions)
 
 - **`MLE-061`** [What is data leakage?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-061-what-is-data-leakage) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-061-what-is-data-leakage)
 - **`MLE-062`** [What is target leakage?](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-062-what-is-target-leakage) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md#mle-062-what-is-target-leakage)
 
 ### PART V — DEEP LEARNING (100 Questions)
 
-#### Topic 40: Neural Networks and Backpropagation (45 Questions)
+#### Topic 34: Neural Networks and Backpropagation (45 Questions)
 
 - **`DL-001`** [How does gradient descent train a neural network?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-001-how-does-gradient-descent-train-a-neural-network) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-001-how-does-gradient-descent-train-a-neural-network)
 - **`DL-002`** [What are many-to-many architectures?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-002-what-are-many-to-many-architectures) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-002-what-are-many-to-many-architectures)
@@ -1012,7 +1012,7 @@
 - **`DL-044`** [Why do vanilla RNNs suffer from vanishing gradients?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-044-why-do-vanilla-rnns-suffer-from-vanishing-gradients) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-044-why-do-vanilla-rnns-suffer-from-vanishing-gradients)
 - **`DL-045`** [What are the limitations of vanilla RNNs?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-045-what-are-the-limitations-of-vanilla-rnns) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-045-what-are-the-limitations-of-vanilla-rnns)
 
-#### Topic 42: RNNs, LSTM, GRU and BiLSTM (32 Questions)
+#### Topic 35: RNNs, LSTM, GRU and BiLSTM (32 Questions)
 
 - **`DL-046`** [What are GRU advantages?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-046-what-are-gru-advantages) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-046-what-are-gru-advantages)
 - **`DL-047`** [What are update and reset gates?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-047-what-are-update-and-reset-gates) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-047-what-are-update-and-reset-gates)
@@ -1047,7 +1047,7 @@
 - **`DL-076`** [What is a Deep RNN?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-076-what-is-a-deep-rnn) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-076-what-is-a-deep-rnn)
 - **`DL-077`** [What training challenges occur in Deep RNNs?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-077-what-training-challenges-occur-in-deep-rnns) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-077-what-training-challenges-occur-in-deep-rnns)
 
-#### Topic 43: Attention and Transformer Architecture (22 Questions)
+#### Topic 36: Attention and Transformer Architecture (22 Questions)
 
 - **`DL-078`** [What are Query, Key, and Value?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-078-what-are-query-key-and-value) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-078-what-are-query-key-and-value)
 - **`DL-079`** [What is BERT?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-079-what-is-bert) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-079-what-is-bert)
@@ -1072,13 +1072,13 @@
 - **`DL-098`** [Why is standard attention computationally expensive?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-098-why-is-standard-attention-computationally-expensive) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-098-why-is-standard-attention-computationally-expensive)
 - **`DL-099`** [Why were Transformers introduced?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-099-why-were-transformers-introduced) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-099-why-were-transformers-introduced)
 
-#### Topic 44: Embeddings and Representation Learning (1 Questions)
+#### Topic 37: Embeddings and Representation Learning (1 Questions)
 
 - **`DL-100`** [What are embeddings?](./pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-100-what-are-embeddings) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md#dl-100-what-are-embeddings)
 
 ### PART VI — GENERATIVE AI AND LLMs (112 Questions)
 
-#### Topic 46: Generative AI and LLM Fundamentals (29 Questions)
+#### Topic 38: Generative AI and LLM Fundamentals (29 Questions)
 
 - **`LLM-001`** [Explain self-attention.?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-001-explain-self-attention) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-001-explain-self-attention)
 - **`LLM-002`** [What are Query, Key, and Value in attention?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-002-what-are-query-key-and-value-in-attention) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-002-what-are-query-key-and-value-in-attention)
@@ -1110,7 +1110,7 @@
 - **`LLM-028`** [Why are transformers better suited than RNNs for large-scale language modeling?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-028-why-are-transformers-better-suited-than-rnns-for-large-scale-language-modeling) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-028-why-are-transformers-better-suited-than-rnns-for-large-scale-language-modeling)
 - **`LLM-029`** [Why do LLMs hallucinate?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-029-why-do-llms-hallucinate) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-029-why-do-llms-hallucinate)
 
-#### Topic 47: Tokenization, Embeddings and Context Windows (7 Questions)
+#### Topic 39: Tokenization, Embeddings and Context Windows (7 Questions)
 
 - **`LLM-030`** [How does tokenization work?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-030-how-does-tokenization-work) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-030-how-does-tokenization-work)
 - **`LLM-031`** [What is a context window?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-031-what-is-a-context-window) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-031-what-is-a-context-window)
@@ -1120,7 +1120,7 @@
 - **`LLM-035`** [What is tokenization?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-035-what-is-tokenization) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-035-what-is-tokenization)
 - **`LLM-036`** [What happens when the context window is exceeded?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-036-what-happens-when-the-context-window-is-exceeded) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-036-what-happens-when-the-context-window-is-exceeded)
 
-#### Topic 48: Prompt Engineering and Context Engineering (26 Questions)
+#### Topic 40: Prompt Engineering and Context Engineering (26 Questions)
 
 - **`LLM-037`** [How do you defend against prompt injection?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-037-how-do-you-defend-against-prompt-injection) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-037-how-do-you-defend-against-prompt-injection)
 - **`LLM-038`** [What is ReAct prompting?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-038-what-is-react-prompting) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-038-what-is-react-prompting)
@@ -1149,14 +1149,14 @@
 - **`LLM-061`** [Should chain-of-thought be exposed to users?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-061-should-chain-of-thought-be-exposed-to-users) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-061-should-chain-of-thought-be-exposed-to-users)
 - **`LLM-062`** [What makes a good prompt?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-062-what-makes-a-good-prompt) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-062-what-makes-a-good-prompt)
 
-#### Topic 49: LLM Inference, Decoding and Sampling (4 Questions)
+#### Topic 41: LLM Inference, Decoding and Sampling (4 Questions)
 
 - **`LLM-063`** [What is greedy decoding?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-063-what-is-greedy-decoding) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-063-what-is-greedy-decoding)
 - **`LLM-064`** [What is temperature?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-064-what-is-temperature) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-064-what-is-temperature)
 - **`LLM-065`** [What is top-k sampling?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-065-what-is-top-k-sampling) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-065-what-is-top-k-sampling)
 - **`LLM-066`** [How do temperature, top-k, and top-p differ?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-066-how-do-temperature-top-k-and-top-p-differ) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-066-how-do-temperature-top-k-and-top-p-differ)
 
-#### Topic 50: Fine-Tuning, PEFT, LoRA and QLoRA (34 Questions)
+#### Topic 42: Fine-Tuning, PEFT, LoRA and QLoRA (34 Questions)
 
 - **`LLM-067`** [How do you detect data leakage?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-067-how-do-you-detect-data-leakage) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-067-how-do-you-detect-data-leakage)
 - **`LLM-068`** [How do you prevent overfitting during fine-tuning?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-068-how-do-you-prevent-overfitting-during-fine-tuning) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-068-how-do-you-prevent-overfitting-during-fine-tuning)
@@ -1193,7 +1193,7 @@
 - **`LLM-099`** [Why can fine-tuning improve style but hurt factuality?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-099-why-can-fine-tuning-improve-style-but-hurt-factuality) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-099-why-can-fine-tuning-improve-style-but-hurt-factuality)
 - **`LLM-100`** [Why does QLoRA reduce memory requirements?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-100-why-does-qlora-reduce-memory-requirements) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-100-why-does-qlora-reduce-memory-requirements)
 
-#### Topic 51: RLHF, DPO and Model Alignment (12 Questions)
+#### Topic 43: RLHF, DPO and Model Alignment (12 Questions)
 
 - **`LLM-101`** [What are the stages of RLHF?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-101-what-are-the-stages-of-rlhf) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-101-what-are-the-stages-of-rlhf)
 - **`LLM-102`** [What is Constitutional Al?](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-102-what-is-constitutional-al) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md#llm-102-what-is-constitutional-al)
@@ -1210,7 +1210,7 @@
 
 ### PART VII — RAG AND INFORMATION RETRIEVAL (124 Questions)
 
-#### Topic 52: RAG Fundamentals and Architecture (19 Questions)
+#### Topic 44: RAG Fundamentals and Architecture (19 Questions)
 
 - **`RAG-001`** [Explain a RAG pipeline end to end.?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-001-explain-a-rag-pipeline-end-to-end) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-001-explain-a-rag-pipeline-end-to-end)
 - **`RAG-002`** [What is Agentic RAG?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-002-what-is-agentic-rag) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-002-what-is-agentic-rag)
@@ -1232,7 +1232,7 @@
 - **`RAG-018`** [When should you use GraphRAG?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-018-when-should-you-use-graphrag) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-018-when-should-you-use-graphrag)
 - **`RAG-019`** [Why do we need RAG if an LLM already has knowledge?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-019-why-do-we-need-rag-if-an-llm-already-has-knowledge) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-019-why-do-we-need-rag-if-an-llm-already-has-knowledge)
 
-#### Topic 53: Document Parsing, Chunking and Indexing (9 Questions)
+#### Topic 45: Document Parsing, Chunking and Indexing (9 Questions)
 
 - **`RAG-020`** [What are the indexing and query-time stages of RAG?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-020-what-are-the-indexing-and-query-time-stages-of-rag) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-020-what-are-the-indexing-and-query-time-stages-of-rag)
 - **`RAG-021`** [What is chunking?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-021-what-is-chunking) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-021-what-is-chunking)
@@ -1244,7 +1244,7 @@
 - **`RAG-027`** [What metadata should be stored with chunks?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-027-what-metadata-should-be-stored-with-chunks) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-027-what-metadata-should-be-stored-with-chunks)
 - **`RAG-028`** [Why is chunking important?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-028-why-is-chunking-important) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-028-why-is-chunking-important)
 
-#### Topic 54: Embedding Models and Vector Databases (28 Questions)
+#### Topic 46: Embedding Models and Vector Databases (28 Questions)
 
 - **`RAG-029`** [How are text embeddings generated?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-029-how-are-text-embeddings-generated) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-029-how-are-text-embeddings-generated)
 - **`RAG-030`** [How do you update embeddings when documents change?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-030-how-do-you-update-embeddings-when-documents-change) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-030-how-do-you-update-embeddings-when-documents-change)
@@ -1275,17 +1275,17 @@
 - **`RAG-055`** [When does keyword search outperform vector search?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-055-when-does-keyword-search-outperform-vector-search) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-055-when-does-keyword-search-outperform-vector-search)
 - **`RAG-056`** [Why use a vector database instead of a relational database? What are metadata filters?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-056-why-use-a-vector-database-instead-of-a-relational-database-what-are-metadata-filters) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-056-why-use-a-vector-database-instead-of-a-relational-database-what-are-metadata-filters)
 
-#### Topic 55: Sparse Retrieval, BM25 and Hybrid Search (2 Questions)
+#### Topic 47: Sparse Retrieval, BM25 and Hybrid Search (2 Questions)
 
 - **`RAG-057`** [What is hybrid search?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-057-what-is-hybrid-search) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-057-what-is-hybrid-search)
 - **`RAG-058`** [How would you combine BM25 and vector search?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-058-how-would-you-combine-bm25-and-vector-search) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-058-how-would-you-combine-bm25-and-vector-search)
 
-#### Topic 56: Reranking and Advanced Retrieval (2 Questions)
+#### Topic 48: Reranking and Advanced Retrieval (2 Questions)
 
 - **`RAG-059`** [What is reranking?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-059-what-is-reranking) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-059-what-is-reranking)
 - **`RAG-060`** [Why is reranking useful?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-060-why-is-reranking-useful) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-060-why-is-reranking-useful)
 
-#### Topic 57: Advanced RAG, GraphRAG and Multi-Hop RAG (31 Questions)
+#### Topic 49: Advanced RAG, GraphRAG and Multi-Hop RAG (31 Questions)
 
 - **`RAG-061`** [What is HYDE?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-061-what-is-hyde) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-061-what-is-hyde)
 - **`RAG-062`** [What is Self-RAG?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-062-what-is-self-rag) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-062-what-is-self-rag)
@@ -1319,7 +1319,7 @@
 - **`RAG-090`** [How do you reduce RAG latency?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-090-how-do-you-reduce-rag-latency) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-090-how-do-you-reduce-rag-latency)
 - **`RAG-091`** [How would you route queries across multiple indexes?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-091-how-would-you-route-queries-across-multiple-indexes) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-091-how-would-you-route-queries-across-multiple-indexes)
 
-#### Topic 58: RAG Evaluation and Troubleshooting (31 Questions)
+#### Topic 50: RAG Evaluation and Troubleshooting (31 Questions)
 
 - **`RAG-092`** [What is RAG evaluation?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-092-what-is-rag-evaluation) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-092-what-is-rag-evaluation)
 - **`RAG-093`** [What is RAGAS?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-093-what-is-ragas) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-093-what-is-ragas)
@@ -1353,14 +1353,14 @@
 - **`RAG-121`** [Which RAG metrics would you track?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-121-which-rag-metrics-would-you-track) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-121-which-rag-metrics-would-you-track)
 - **`RAG-122`** [What are the limitations of LLM-as-a-judge?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-122-what-are-the-limitations-of-llm-as-a-judge) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-122-what-are-the-limitations-of-llm-as-a-judge)
 
-#### Topic 59: Hallucination Reduction, Grounding and Citations (2 Questions)
+#### Topic 51: Hallucination Reduction, Grounding and Citations (2 Questions)
 
 - **`RAG-123`** [Can RAG completely eliminate hallucination?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-123-can-rag-completely-eliminate-hallucination) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-123-can-rag-completely-eliminate-hallucination)
 - **`RAG-124`** [How does RAG reduce hallucination?](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-124-how-does-rag-reduce-hallucination) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md#rag-124-how-does-rag-reduce-hallucination)
 
 ### PART VIII — AGENTIC AI AND ORCHESTRATION (137 Questions)
 
-#### Topic 60: AI Agent Fundamentals (30 Questions)
+#### Topic 52: AI Agent Fundamentals (30 Questions)
 
 - **`AGT-001`** [What are the core components of an agent?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-001-what-are-the-core-components-of-an-agent) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-001-what-are-the-core-components-of-an-agent)
 - **`AGT-002`** [What is ReAct?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-002-what-is-react) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-002-what-is-react)
@@ -1393,7 +1393,7 @@
 - **`AGT-029`** [When should you prefer a workflow over an agent?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-029-when-should-you-prefer-a-workflow-over-an-agent) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-029-when-should-you-prefer-a-workflow-over-an-agent)
 - **`AGT-030`** [Why can agents become expensive?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-030-why-can-agents-become-expensive) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-030-why-can-agents-become-expensive)
 
-#### Topic 61: Tool Calling and Structured Outputs (19 Questions)
+#### Topic 53: Tool Calling and Structured Outputs (19 Questions)
 
 - **`AGT-031`** [What is a tool allowlist?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-031-what-is-a-tool-allowlist) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-031-what-is-a-tool-allowlist)
 - **`AGT-032`** [What is least privilege for agents?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-032-what-is-least-privilege-for-agents) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-032-what-is-least-privilege-for-agents)
@@ -1415,7 +1415,7 @@
 - **`AGT-048`** [Why should tools have narrow responsibilities?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-048-why-should-tools-have-narrow-responsibilities) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-048-why-should-tools-have-narrow-responsibilities)
 - **`AGT-049`** [Why use Pydantic models for tool arguments?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-049-why-use-pydantic-models-for-tool-arguments) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-049-why-use-pydantic-models-for-tool-arguments)
 
-#### Topic 62: MCP and Tool Integration (8 Questions)
+#### Topic 54: MCP and Tool Integration (8 Questions)
 
 - **`MCP-001`** [What is Model Context Protocol (MCP)?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-001-what-is-model-context-protocol-mcp) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-001-what-is-model-context-protocol-mcp)
 - **`MCP-002`** [What is an MCP prompt?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-002-what-is-an-mcp-prompt) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-002-what-is-an-mcp-prompt)
@@ -1426,7 +1426,7 @@
 - **`MCP-007`** [What problem does MCP solve?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-007-what-problem-does-mcp-solve) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-007-what-problem-does-mcp-solve)
 - **`MCP-008`** [When would you use MCP?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-008-when-would-you-use-mcp) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#mcp-008-when-would-you-use-mcp)
 
-#### Topic 63: LangChain Framework (20 Questions)
+#### Topic 55: LangChain Framework (20 Questions)
 
 - **`LGC-001`** [What are AIMessage, HumanMessage, and SystemMessage?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-001-what-are-aimessage-humanmessage-and-systemmessage) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-001-what-are-aimessage-humanmessage-and-systemmessage)
 - **`LGC-002`** [What are prompts in LangChain?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-002-what-are-prompts-in-langchain) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-002-what-are-prompts-in-langchain)
@@ -1449,7 +1449,7 @@
 - **`LGC-019`** [What problem does LangChain solve?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-019-what-problem-does-langchain-solve) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-019-what-problem-does-langchain-solve)
 - **`LGC-020`** [What problem does Llamalndex solve?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-020-what-problem-does-llamalndex-solve) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-020-what-problem-does-llamalndex-solve)
 
-#### Topic 64: LangGraph, State, Nodes, Edges and Checkpointing (6 Questions)
+#### Topic 56: LangGraph, State, Nodes, Edges and Checkpointing (6 Questions)
 
 - **`LGC-021`** [What is a node in LangGraph?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-021-what-is-a-node-in-langgraph) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-021-what-is-a-node-in-langgraph)
 - **`LGC-022`** [What is an interrupt in LangGraph?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-022-what-is-an-interrupt-in-langgraph) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-022-what-is-an-interrupt-in-langgraph)
@@ -1458,7 +1458,7 @@
 - **`LGC-025`** [When would you use LangGraph for production?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-025-when-would-you-use-langgraph-for-production) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-025-when-would-you-use-langgraph-for-production)
 - **`LGC-026`** [Why use LangGraph instead of a simple chain?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-026-why-use-langgraph-instead-of-a-simple-chain) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#lgc-026-why-use-langgraph-instead-of-a-simple-chain)
 
-#### Topic 66: Multi-Agent Systems and Orchestration (16 Questions)
+#### Topic 57: Multi-Agent Systems and Orchestration (16 Questions)
 
 - **`AGT-050`** [What is a critic agent?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-050-what-is-a-critic-agent) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-050-what-is-a-critic-agent)
 - **`AGT-051`** [What is a judge agent?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-051-what-is-a-judge-agent) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-051-what-is-a-judge-agent)
@@ -1477,7 +1477,7 @@
 - **`AGT-064`** [When should you use multiple agents?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-064-when-should-you-use-multiple-agents) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-064-when-should-you-use-multiple-agents)
 - **`AGT-065`** [What are the disadvantages of multi-agent systems?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-065-what-are-the-disadvantages-of-multi-agent-systems) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-065-what-are-the-disadvantages-of-multi-agent-systems)
 
-#### Topic 67: Agent Memory and Context Management (14 Questions)
+#### Topic 58: Agent Memory and Context Management (14 Questions)
 
 - **`AGT-066`** [What is context compaction?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-066-what-is-context-compaction) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-066-what-is-context-compaction)
 - **`AGT-067`** [What is memory in an Al agent?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-067-what-is-memory-in-an-al-agent) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-067-what-is-memory-in-an-al-agent)
@@ -1494,7 +1494,7 @@
 - **`AGT-078`** [What should an agent remember?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-078-what-should-an-agent-remember) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-078-what-should-an-agent-remember)
 - **`AGT-079`** [Why should memory be separated from the prompt?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-079-why-should-memory-be-separated-from-the-prompt) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-079-why-should-memory-be-separated-from-the-prompt)
 
-#### Topic 68: AI Safety, Security and Guardrails (24 Questions)
+#### Topic 59: AI Safety, Security and Guardrails (24 Questions)
 
 - **`AGT-080`** [How do you detect prompt injection inside retrieved content?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-080-how-do-you-detect-prompt-injection-inside-retrieved-content) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-080-how-do-you-detect-prompt-injection-inside-retrieved-content)
 - **`AGT-081`** [What are guardrails?](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-081-what-are-guardrails) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md#agt-081-what-are-guardrails)
@@ -1523,7 +1523,7 @@
 
 ### PART IX — LLMOPS AND AI SYSTEM DESIGN (58 Questions)
 
-#### Topic 69: LLMOps and Observability (20 Questions)
+#### Topic 60: LLMOps and Observability (20 Questions)
 
 - **`LLMO-001`** [How do you monitor hallucinations?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-001-how-do-you-monitor-hallucinations) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-001-how-do-you-monitor-hallucinations)
 - **`LLMO-002`** [What is LLMOps?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-002-what-is-llmops) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-002-what-is-llmops)
@@ -1546,30 +1546,30 @@
 - **`LLMO-019`** [Why can retries be dangerous for tools?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-019-why-can-retries-be-dangerous-for-tools) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-019-why-can-retries-be-dangerous-for-tools)
 - **`LLMO-020`** [What is exponential backoff?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-020-what-is-exponential-backoff) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-020-what-is-exponential-backoff)
 
-#### Topic 70: Evaluation Frameworks and Testing (1 Questions)
+#### Topic 61: Evaluation Frameworks and Testing (1 Questions)
 
 - **`LLMO-021`** [How do you benchmark an LLM service?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-021-how-do-you-benchmark-an-llm-service) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-021-how-do-you-benchmark-an-llm-service)
 
-#### Topic 71: Latency, Token Costs, Caching and Optimization (3 Questions)
+#### Topic 62: Latency, Token Costs, Caching and Optimization (3 Questions)
 
 - **`LLMO-022`** [How do you monitor latency?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-022-how-do-you-monitor-latency) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-022-how-do-you-monitor-latency)
 - **`LLMO-023`** [How do you monitor token usage?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-023-how-do-you-monitor-token-usage) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-023-how-do-you-monitor-token-usage)
 - **`LLMO-024`** [How do you reduce inference cost?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-024-how-do-you-reduce-inference-cost) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-024-how-do-you-reduce-inference-cost)
 
-#### Topic 72: Reliability, Retries and Production Monitoring (4 Questions)
+#### Topic 63: Reliability, Retries and Production Monitoring (4 Questions)
 
 - **`LLMO-025`** [What is circuit breaking?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-025-what-is-circuit-breaking) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-025-what-is-circuit-breaking)
 - **`LLMO-026`** [How do you handle model provider outages?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-026-how-do-you-handle-model-provider-outages) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-026-how-do-you-handle-model-provider-outages)
 - **`LLMO-027`** [How do you implement fallbacks across models?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-027-how-do-you-implement-fallbacks-across-models) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-027-how-do-you-implement-fallbacks-across-models)
 - **`LLMO-028`** [When should you retry an LLM call?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-028-when-should-you-retry-an-llm-call) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-028-when-should-you-retry-an-llm-call)
 
-#### Topic 73: Model Routing and Inference Architecture (3 Questions)
+#### Topic 64: Model Routing and Inference Architecture (3 Questions)
 
 - **`LLMO-029`** [What is a model gateway?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-029-what-is-a-model-gateway) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-029-what-is-a-model-gateway)
 - **`LLMO-030`** [What is vLLM?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-030-what-is-vllm) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-030-what-is-vllm)
 - **`LLMO-031`** [Why use model routing?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-031-why-use-model-routing) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#llmo-031-why-use-model-routing)
 
-#### Topic 74: End-to-End RAG System Design (8 Questions)
+#### Topic 65: End-to-End RAG System Design (8 Questions)
 
 - **`SYS-001`** [Design a RAG system for frequently changing documents.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-001-design-a-rag-system-for-frequently-changing-documents) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-001-design-a-rag-system-for-frequently-changing-documents)
 - **`SYS-002`** [Design a RAG system with strict data isolation.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-002-design-a-rag-system-with-strict-data-isolation) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-002-design-a-rag-system-with-strict-data-isolation)
@@ -1580,7 +1580,7 @@
 - **`SYS-007`** [Design an enterprise RAG system end to end.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-007-design-an-enterprise-rag-system-end-to-end) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-007-design-an-enterprise-rag-system-end-to-end)
 - **`SYS-008`** [How would you scale a RAG system from 1K to 10M users?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-008-how-would-you-scale-a-rag-system-from-1k-to-10m-users) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-008-how-would-you-scale-a-rag-system-from-1k-to-10m-users)
 
-#### Topic 75: Agentic Workflow System Design (10 Questions)
+#### Topic 66: Agentic Workflow System Design (10 Questions)
 
 - **`SYS-009`** [Design a SQL analytics agent.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-009-design-a-sql-analytics-agent) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-009-design-a-sql-analytics-agent)
 - **`SYS-010`** [Design a browser-use research agent.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-010-design-a-browser-use-research-agent) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-010-design-a-browser-use-research-agent)
@@ -1593,7 +1593,7 @@
 - **`SYS-017`** [Design an email automation agent with human approval.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-017-design-an-email-automation-agent-with-human-approval) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-017-design-an-email-automation-agent-with-human-approval)
 - **`SYS-018`** [How would you design asynchronous agent execution?](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-018-how-would-you-design-asynchronous-agent-execution) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-018-how-would-you-design-asynchronous-agent-execution)
 
-#### Topic 76: Enterprise AI Architecture and Scalability (9 Questions)
+#### Topic 67: Enterprise AI Architecture and Scalability (9 Questions)
 
 - **`SYS-019`** [Design a document question-answering system for 10 million documents.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-019-design-a-document-question-answering-system-for-10-million-documents) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-019-design-a-document-question-answering-system-for-10-million-documents)
 - **`SYS-020`** [Design a model-routing service.](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-020-design-a-model-routing-service) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md#sys-020-design-a-model-routing-service)
@@ -1607,7 +1607,7 @@
 
 ### PART X — PRACTICAL INTERVIEW ROUNDS (82 Questions)
 
-#### Topic 77: Coding and Implementation Questions (20 Questions)
+#### Topic 68: Coding and Implementation Questions (20 Questions)
 
 - **`CODE-001`** [Implement top-k retrieval from a list of embeddings.](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-001-implement-top-k-retrieval-from-a-list-of-embeddings) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-001-implement-top-k-retrieval-from-a-list-of-embeddings)
 - **`CODE-002`** [Create a Pydantic model for tool arguments.](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-002-create-a-pydantic-model-for-tool-arguments) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-002-create-a-pydantic-model-for-tool-arguments)
@@ -1630,7 +1630,7 @@
 - **`CODE-019`** [Write code to remove duplicate documents.](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-019-write-code-to-remove-duplicate-documents) &nbsp;`★★☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-019-write-code-to-remove-duplicate-documents)
 - **`CODE-020`** [Write a retry wrapper with exponential backoff.](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-020-write-a-retry-wrapper-with-exponential-backoff) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#code-020-write-a-retry-wrapper-with-exponential-backoff)
 
-#### Topic 78: Scenario-Based Data Science Questions (25 Questions)
+#### Topic 69: Scenario-Based Data Science Questions (25 Questions)
 
 - **`CASE-001`** [Fine-tuning improves tone but increases hallucination. What happened?](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-001-fine-tuning-improves-tone-but-increases-hallucination-what-happened) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-001-fine-tuning-improves-tone-but-increases-hallucination-what-happened)
 - **`CASE-002`** [Your vector database becomes slow at scale. What do you investigate?](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-002-your-vector-database-becomes-slow-at-scale-what-do-you-investigate) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-002-your-vector-database-becomes-slow-at-scale-what-do-you-investigate)
@@ -1658,7 +1658,7 @@
 - **`CASE-024`** [Your model is cheap but inaccurate; another is accurate but expensive. How do you route requests?](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-024-your-model-is-cheap-but-inaccurate-another-is-accurate-but-expensive-how-do-you-route-requests) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-024-your-model-is-cheap-but-inaccurate-another-is-accurate-but-expensive-how-do-you-route-requests)
 - **`CASE-025`** [Your multi-agent system costs 5x more than a single agent. How do you decide whether it is justified?](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-025-your-multi-agent-system-costs-5x-more-than-a-single-agent-how-do-you-decide-whether-it-is-justified) &nbsp;`★☆☆`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#case-025-your-multi-agent-system-costs-5x-more-than-a-single-agent-how-do-you-decide-whether-it-is-justified)
 
-#### Topic 81: Rapid-Fire Comparisons (37 Questions)
+#### Topic 70: Rapid-Fire Comparisons (37 Questions)
 
 - **`COMP-001`** [Accuracy vs latency?](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#comp-001-accuracy-vs-latency) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#comp-001-accuracy-vs-latency)
 - **`COMP-002`** [Agent vs workflow: what is the trade-off?](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#comp-002-agent-vs-workflow-what-is-the-trade-off) &nbsp;`★★★`&nbsp; [*(GitHub)*](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md#comp-002-agent-vs-workflow-what-is-the-trade-off)
