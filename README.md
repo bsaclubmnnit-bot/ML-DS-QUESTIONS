@@ -1,12 +1,33 @@
-# 📚 403 ML & DS Interview Questions with Answers
+# 📚 Master Data Science & AI Interview Question Bank
 
-> **Comprehensive 403 Machine Learning, Data Science, and Deep Learning Interview Questions & Detailed Answers**
+> **Comprehensive Repository: 1,443 Master Interview Questions (PIXEL CHAMP) + 403 ML & DS Deep-Dive Answers**
 >
-> 🔗 **Repository URL:** [https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS)
+> 🔗 **Repository URL:** [https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS)  
+> 📄 **Interactive Master PDF:** [PIXEL_CHAMP_Master_Data_Science_AI_Interview_Question_Bank.pdf](./PIXEL_CHAMP_Master_Data_Science_AI_Interview_Question_Bank.pdf)  
+> 📑 **Complete 1,443 Master Question Index:** [PIXEL_CHAMP_INDEX.md](./PIXEL_CHAMP_INDEX.md)
 
 ---
 
-## 📋 Table of Contents
+## 🏆 PIXEL CHAMP: 1,443 Master Questions by Part
+
+| Part # | Technical Domain | Questions | Answers Document | Direct Online View |
+|:---:|---|:---:|---|:---:|
+| **Part I** | Data Science Foundations (Stats, Prob, EDA, Feature Eng) | **212** | [`01_Part_I_Data_Science_Foundations.md`](./pixel_champ_answers/01_Part_I_Data_Science_Foundations.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/01_Part_I_Data_Science_Foundations.md) |
+| **Part II** | SQL, Python & Data Analysis (SQL, Pandas, OOP) | **301** | [`02_Part_II_SQL_Python_Data_Analysis.md`](./pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/02_Part_II_SQL_Python_Data_Analysis.md) |
+| **Part III** | Machine Learning (Supervised, Trees, Boosting, Clustering) | **255** | [`03_Part_III_Machine_Learning.md`](./pixel_champ_answers/03_Part_III_Machine_Learning.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/03_Part_III_Machine_Learning.md) |
+| **Part IV** | Model Evaluation & Production ML (Metrics, ROC-AUC) | **62** | [`04_Part_IV_Model_Evaluation_Production_ML.md`](./pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/04_Part_IV_Model_Evaluation_Production_ML.md) |
+| **Part V** | Deep Learning (ANN, CNN, RNN, LSTM, Transformers) | **100** | [`05_Part_V_Deep_Learning.md`](./pixel_champ_answers/05_Part_V_Deep_Learning.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/05_Part_V_Deep_Learning.md) |
+| **Part VI** | Generative AI & LLMs (Prompting, Fine-Tuning, LoRA, DPO) | **112** | [`06_Part_VI_Generative_AI_and_LLMs.md`](./pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/06_Part_VI_Generative_AI_and_LLMs.md) |
+| **Part VII** | RAG & Information Retrieval (Vector DBs, Hybrid, GraphRAG) | **124** | [`07_Part_VII_RAG_and_Information_Retrieval.md`](./pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/07_Part_VII_RAG_and_Information_Retrieval.md) |
+| **Part VIII** | Agentic AI & Orchestration (ReAct, LangGraph, Multi-Agent) | **137** | [`08_Part_VIII_Agentic_AI_and_Orchestration.md`](./pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/08_Part_VIII_Agentic_AI_and_Orchestration.md) |
+| **Part IX** | LLMOps & AI System Design (Observability, Cache, Scaling) | **58** | [`09_Part_IX_LLMOps_and_AI_System_Design.md`](./pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/09_Part_IX_LLMOps_and_AI_System_Design.md) |
+| **Part X** | Practical Interview Rounds (Live Coding, Cases, Comparisons) | **82** | [`10_Part_X_Practical_Interview_Rounds.md`](./pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md) | [Open on GitHub](https://github.com/bsaclubmnnit-bot/ML-DS-QUESTIONS/blob/main/pixel_champ_answers/10_Part_X_Practical_Interview_Rounds.md) |
+
+👉 **Browse full 1,443 Question List with Individual Links:** [**PIXEL_CHAMP_INDEX.md**](./PIXEL_CHAMP_INDEX.md)
+
+---
+
+## 📋 403 ML & DS Deep-Dive Answers (Original Core Collection)
 
 | # | Topic | Questions | File | GitHub Direct Link |
 |---|-------|-----------|------|--------------------|
